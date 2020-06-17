@@ -72,7 +72,7 @@ header .menu .phone .button:hover {
     margin-right: 10%;
     display: flex;
     align-items: center;
-    margin-top: -5%
+    margin-top: -5%;
 }
 .mainSection .bio {
     width: 50%;
@@ -228,10 +228,12 @@ footer .sec2 .lists {
     width: 100%;
     text-align: center;
     margin-top: 2%;
-    margin-bottom: 2%}
+    margin-bottom: 2%;
+}
 .sec2 .list1 {
     text-align: left;
-    margin-top: -2%}
+    margin-top: -2%;
+}
 .sec2 .list1 ul li {
     font-size: 20px;
 }
@@ -325,7 +327,7 @@ header .menu .phone .button {
 .mainSection .bio h1 {
     width: 80%;
     margin-left: 20%;
-    font-size: 70px;
+    font-size: 50px;
 }
 .mainSection .bio h2 {
     width: 80%;
@@ -401,12 +403,12 @@ footer .sec1 .textBlock {
 footer .sec1 .textBlock h2 {
     width: 80%;
     margin-top: 1%;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 55px;
 }
 footer .sec1 .textBlock h3 {
     width: 80%;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
 }
 .sec2 {
@@ -590,8 +592,6 @@ footer .sec1 .textBlock h3 {
         font-size: 20px;
         line-height: 40px;
     }
-    .sec2 .list2 .contact {
-    }
     .sec2 .list2 .contact img {
         width: 30px;
         height: 30px;
@@ -739,6 +739,7 @@ footer .sec1 .textBlock h3 {
     margin-left: 35%;
 }
 }
+
 @media (max-width: 480px) {
     .menu {
     max-width: 480px;
@@ -838,7 +839,8 @@ footer .sec1 .textBlock h2 {
     margin-top: 3%;
     font-size: 20px;
     line-height: 25px;
-    margin-left: -8%}
+    margin-left: -8%;
+}
 footer .sec1 .textBlock h3 {
     display: none;
     width: 70%;
