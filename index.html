@@ -3,7 +3,7 @@
 <head>
     <title>FrontEnd</title>
     <link rel="stylesheet" href="css/index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width"/>
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
         </div>
     </header>
     <section class="mainSection">
-        <div>
+        <div class="bio">
         <h1>Дмитрий Алексеев</h1>
         <h2>Front-End разработчик и веб-верстальщик</h2>
             <button class="learn">
@@ -35,26 +35,28 @@
             <img src="img/Dmitry Alekseev.png" alt="">
         </div>
     </section>
-    <h2 class="text2">Что я делаю</h2>
     <section class="active">
-        <div class="skill">
-            <img src="img/icons/tools-and-utensils.png" alt="">
-            <p>Верстка лендинг-страниц <br>и сайтов любой сложности</p>
+        <h2 class="text2">Что я делаю</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="img/icons/tools-and-utensils.png" alt="">
+                <p>Верстка лендинг-страниц <br>и сайтов любой сложности</p>
+            </div>
+            <div class="skill">
+                <img src="img/icons/responsive.png" alt="">
+                <p>Адаптивная верста под все <br>браузеры и устройства</p>
+            </div>
+            <div class="skill">
+                <img src="img/icons/programming.png" alt="">
+                <p>Frontend-разработка<br> и программирование</p>
+            </div>
+            <div class="skill">
+                <img src="img/icons/coding (1).png" alt="">
+                <p>Исправление и доработка <br>существующей верстки</p>
+            </div>
         </div>
-        <div class="skill">
-            <img src="img/icons/responsive.png" alt="">
-            <p>Адаптивная верста под все <br>браузеры и устройства</p>
-        </div>
-        <div class="skill">
-            <img src="img/icons/programming.png" alt="">
-            <p>Frontend-разработка<br> и программирование</p>
-        </div>
-        <div class="skill">
-            <img src="img/icons/coding (1).png" alt="">
-            <p>Исправление и доработка <br>существующей верстки</p>
-        </div>
+        <button class="cost">Узнать стоимость</button>
     </section>
-    <button class="cost">Узнать стоимость</button>
 
     <section class="myWorks">
         <h2 class="text3">Примеры моих работ</h2>
@@ -72,46 +74,50 @@
                 <p>Сайт магазина "Рыболов"</p>
             </div>
         </div>
-        <button class="order">Заказать проект</button>
+        <div class="orderButton">
+            <button class="order">Заказать проект</button>
+        </div>
     </section>
     <footer>
         <section class="sec1">
-            <div>
+            <div class="textBlock">
             <h2>Адаптивная верстка под все устройства <br>и браузеры от 1000 рублей всего за 4 часа.*</h2>
             <h3>*Срок и стоимость может отличаться от заявленных и рассчитываются индивидуально <br> в зависимости от сложности задач.</h3>
             </div>
         </section>
         <section class="sec2">
-            <div class="list1">
-                <ul>
-                    <li>Услуги</li>
-                    <li>Портфолио</li>
-                    <li>Стоимость</li>
-                </ul>
+            <div class="lists">
+                <div class="list1">
+                        <ul>
+                            <li>Услуги</li>
+                            <li>Портфолио</li>
+                            <li>Стоимость</li>
+                        </ul>
+                    </div>
+                <div class="list2">
+                    <div class="contact">
+                        <img src="img/icons/call-answer (1).png" alt="">
+                        <p>+7(499)955-55-77</p>
+                    </div>  
+                    <div class="contact">
+                        <img src="img/icons/envelope (1).png" alt="">
+                        <p>dmitry@alekseev.com</p>
+                    </div>
+                </div>
+                <div class="list3">
+                    <button>Заказать звонок</button>
+                    <div class="icons">
+                        <img src="img/icons/vk (1).png" alt="">
+                        <img src="img/icons/facebook-logo (1).png" alt="">
+                        <img src="img/icons/twitter-logo-silhouette.png" alt="">
+                        <img src="img/icons/instagram-social-network-logo-of-photo-camera.png" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="list2">
-                <div class="contact">
-                    <img src="img/icons/call-answer (1).png" alt="">
-                    <p>+7(499)955-55-77</p>
-                </div>
-                <div class="contact">
-                    <img src="img/icons/envelope (1).png" alt="">
-                    <p>dmitry@alekseev.com</p>
-                </div>
-            </div>
-            <div class="list3">
-                <button>Заказать звонок</button>
-                <div class="icons">
-                <img src="img/icons/vk (1).png" alt="">
-                <img src="img/icons/facebook-logo (1).png" alt="">
-                <img src="img/icons/twitter-logo-silhouette.png" alt="">
-                <img src="img/icons/instagram-social-network-logo-of-photo-camera.png" alt="">
-                </div>
+            <div class="footer">
+                <h2>Дмитрий Алексеев, 2016-2018</h2>
             </div>
         </section>
-        <div class="footer">
-            <h2>Дмитрий Алексеев, 2016-2018</h2>
-        </div>
     </footer>
 </body>
 </html>
