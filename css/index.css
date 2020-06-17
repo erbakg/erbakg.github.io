@@ -156,7 +156,10 @@ header .menu .phone .button:hover {
     text-align: center;
     font-size: 50px;
     margin-top: 7%;
-    margin-left: 10%
+    margin-left: 10%;
+}
+.myWorks {
+    width: 80%;
 }
 .myWorks .cards {
     width: 90%;
@@ -206,7 +209,8 @@ footer .sec1 div h2 {
     line-height: 40px;
 }
 footer .sec2 {
-    width: 100%}
+    width: 100%;
+}
 footer .sec2 .lists {
     width: 80%;
     margin-left: 8%;
@@ -294,23 +298,30 @@ footer .sec2 .lists {
 @media (max-width: 1600px) {
     header .menu {
     max-width: 1600px;
-    width: 80%}
+    width: 80%;
+}
 header .menu .rightMenu {
-    margin-left: 12%}
+    width: 40%;
+    margin-left: 12%;
+}
 header .menu .rightMenu ul li {
     font-size: 35px;
 }
+header .menu .phone {
+    width: 40%;
+}
 header .menu .phone p {
-    font-size: 35px;
+    font-size: 30px;
 }
 header .menu .phone .button {
     height: 50px;
-    width: 200px;
-    font-size: 22px;
+    width: 150px;
+    font-size: 20px;
 }
 .mainSection .bio {
     width: 80%;
-    margin-top: 5%}
+    margin-top: 5%;
+}
 .mainSection .bio h1 {
     width: 80%;
     margin-left: 20%;
@@ -327,7 +338,8 @@ header .menu .phone .button {
     height: 100px;
     width: 300px;
     font-size: 30px;
-    margin-left: 40%}
+    margin-left: 40%;
+}
 .active .text2 {
     font-size: 70px;
 }
@@ -343,21 +355,25 @@ header .menu .phone .button {
     height: 100px;
     width: 300px;
     font-size: 30px;
-    margin-left: 40%}
+    margin-left: 40%;
+}
 .myWorks {
     max-width: 1600px;
-    width: 80%}
+    width: 80%;
+}
 .myWorks .text3 {
     width: 80%;
     text-align: center;
     font-size: 70px;
     margin-top: 7%;
-    margin-left: 20%}
+    margin-left: 20%
+}
 .myWorks .cards {
     width: 60%;
-    margin-left: 8%}
+    margin-left: 8%;
+}
 .myWorks .cards .work img {
-    width: 450px;
+    width: 400px;
 }
 .myWorks .cards .work p {
     font-size: 30px;
@@ -368,7 +384,8 @@ header .menu .phone .button {
     height: 100px;
     width: 320px;
     font-size: 30px;
-    margin-left: 50%}
+    margin-left: 50%;
+}
 footer .sec1 {
     max-width: 1600px;
     width: 100%;
@@ -379,7 +396,8 @@ footer .sec1 {
     text-align: left;
 }
 footer .sec1 .textBlock {
-    width: 80%}
+    width: 80%;
+}
 footer .sec1 .textBlock h2 {
     width: 80%;
     margin-top: 1%;
@@ -403,7 +421,8 @@ footer .sec1 .textBlock h3 {
     line-height: 50px;
 }
 .sec2 .list2 .contact {
-    margin-bottom: 5%}
+    margin-bottom: 5%;
+}
 .sec2 .list2 .contact img {
     width: 40px;
     height: 30px;
@@ -415,9 +434,11 @@ footer .sec1 .textBlock h3 {
     height: 60px;
     width: 180px;
     font-size: 20px;
-    margin-left: 5%}
+    margin-left: 5%;
+}
 .sec2 .list3 .icons {
-    margin-left: 5%}
+    margin-left: 5%;
+}
 .sec2 .list3 .icons img {
     width: 30px;
     height: 40px;
@@ -428,7 +449,7 @@ footer .sec1 .textBlock h3 {
 }
 .sec2 .footer h2 {
     font-size: 30px;
-    margin-top: 3%
+    margin-top: 3%;
 }
 }
 @media (max-width: 1200px) {
@@ -507,7 +528,7 @@ footer .sec1 .textBlock h3 {
     }
     .myWorks {
         max-width: 1200px;
-        width: 90%
+        width: 80%
     }
     .myWorks .text3 {
         width: 80%;
@@ -599,7 +620,6 @@ footer .sec1 .textBlock h3 {
         margin-top: 3%
     }
     }
-}
 @media (max-width: 760px) {
     .menu {
     max-width: 760px;
@@ -621,19 +641,22 @@ header .menu .phone .button {
     width: 100%;
     height: 300px;
     align-items: center;
-    margin-left: 5%}
+    margin-left: 5%
+}
 .mainSection .bio h1 {
     width: 80%;
     margin-top: 10%;
     font-size: 50px;
     line-height: 55px;
-    margin-left: 15%}
+    margin-left: 15%
+}
 .mainSection .bio h2 {
     width: 80%;
     margin-top: 5%;
     line-height: 30px;
     font-size: 25px;
-    margin-left: 20%}
+    margin-left: 20%
+}
 .mainSection .bio .learn {
     width: 40%;
     margin-top: 5%;
@@ -648,10 +671,12 @@ header .menu .phone .button {
     align-items: center;
 }
 .active .skills .skill {
-    width: 50%}
+    width: 50%;
+}
 .active .cost {
-    width: 20%;
-    margin-left: 40%}
+    width: 30%;
+    margin-left: 35%;
+}
 .myWorks {
     max-width: 760px;
     flex-direction: column;
@@ -660,12 +685,15 @@ header .menu .phone .button {
 .myWorks .cards {
     width: 80%;
     flex-direction: column;
-    margin-left: 10%}
+    margin-left: 20%;
+}
 .myWorks .order .orderButton {
-    width: 100%}
+    width: 100%;
+}
 .myWorks .order {
     width: 20%;
-    margin-left: 40%}
+    margin-left: 40%;
+}
 .photo {
     display: none;
 }
@@ -693,18 +721,22 @@ footer .sec1 .textBlock h3 {
 .sec2 .lists {
     width: 80%;
     flex-wrap: wrap;
-    margin-bottom: 5%}
+    margin-bottom: 5%;
+    height: 230px;
+}
 .sec2 .list1 {
     margin-top: -3%;
     width: 40%;
-    margin-left: 5%}
+    margin-left: 5%;
+}
 .sec2 .list2 {
     margin-top: 5%;
     width: 40%;
-    margin-right: -8%}
+    margin-right: -8%;
+}
 .sec2 .list3 {
-    width: 40%;
-    margin-left: 35%
+    width: 35%;
+    margin-left: 35%;
 }
 }
 @media (max-width: 480px) {
@@ -777,16 +809,19 @@ header .menu .phone .button {
 .myWorks .text3 {
     width: 80%;
     font-size: 35px;
-    margin-right: 3%}
+    margin-right: 3%
+}
 .myWorks .cards {
     width: 80%;
     flex-direction: column;
     margin-left: 10%}
 .myWorks .order .orderButton {
-    width: 100%}
-.myWorks .order {
-    width: 40%;
-    margin-left: 30%}
+    width: 100%
+}
+.myWorks .orderButton .order {
+    width: 50%;
+    margin-left: 30%;
+}
 .photo {
     display: none;
 }
@@ -816,23 +851,29 @@ footer .sec1 .textBlock h3 {
 .sec2 .lists {
     width: 100%;
     flex-wrap: wrap;
-    margin-bottom: 5%}
+    margin-bottom: 5%;
+    height: 250px;
+}
 .sec2 .list1 {
     margin-left: -5%;
     margin-top: -3%;
     margin-right: 6%;
-    width: 40%}
+    width: 40%;
+}
 .sec2 .lists .list1 ul li {
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 30px;
 }
 .sec2 .list2 {
     margin-top: 10%;
     margin-right: 2%;
-    width: 45%}
+    width: 45%;
+}
 .sec2 .list2 .contact p {
-    font-size: 18px;
+    font-size: 17px;
 }
 .sec2 .list3 {
     width: 40%;
-    margin-left: 30%}
+    margin-left: 30%;
+}
 }
