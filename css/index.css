@@ -202,10 +202,10 @@ footer .sec1 {
 footer .sec1 .textBlock {
     width: 80%;
     padding-top: 3%;
-    margin-left: 20%
+    margin-left: 20%;
 }
-footer .sec1 div h2 {
-    font-size: 35px;
+footer .sec1 .textBlock h2 {
+    font-size: 30px;
     line-height: 40px;
 }
 footer .sec2 {
