@@ -895,7 +895,7 @@ footer .sec1 .textBlock h3 {
     align-items: center;
 }
 header .menu .rightMenu ul li {
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0;
 }
 header .menu .phone {
@@ -906,11 +906,15 @@ header .menu .phone {
 header .menu .phone p {
     width: 50%;
     padding-left: -2%;
-    font-size: 17px;
+    font-size: 15px;
 }
 header .menu .phone .button {
     margin-top: -4%;
     width: 30%;
+    font-size: 15px;
+}
+header .menu .phone button {
+    font-size: 15px;
 }
 .mainSection {
     max-width: 375px;
