@@ -630,8 +630,12 @@ header .menu .phone {
     width: 80%;
     align-items: center;
 }
+header .menu .rightMenu {
+    margin-left: -5%;
+}
 header .menu .phone .button {
-    margin-top: -5%}
+    margin-top: -5%;
+}
 .mainSection {
     max-width: 760px;
     flex-direction: column;
@@ -745,6 +749,9 @@ footer .sec1 .textBlock h3 {
     max-width: 480px;
     flex-direction: column;
     align-items: center;
+}
+header .menu .rightMenu {
+    margin-left: -50%;
 }
 header .menu .phone {
     width: 100%;
@@ -873,6 +880,164 @@ footer .sec1 .textBlock h3 {
 }
 .sec2 .list2 .contact p {
     font-size: 17px;
+}
+.sec2 .list3 {
+    width: 40%;
+    margin-left: 30%;
+}
+}
+@media (max-width: 375px) {
+    .menu {
+    max-width: 375px;
+    flex-direction: column;
+    align-items: center;
+}
+header .menu .rightMenu {
+    margin-left: -50%;
+}
+header .menu .rightMenu ul li {
+    font-size: 20px;
+}
+header .menu .phone {
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+}
+header .menu .phone p {
+    width: 50%;
+    padding-left: -2%;
+    font-size: 17px;
+}
+header .menu .phone .button {
+    margin-top: -4%;
+    width: 30%;
+}
+.mainSection {
+    max-width: 375px;
+    flex-direction: column;
+    align-items: center;
+}
+.mainSection .bio {
+    width: 90%;
+    height: 200px;
+}
+.mainSection .bio h1 {
+    width: 80%;
+    margin-top: 10%;
+    font-size: 30px;
+    line-height: 35px;
+}
+.mainSection .bio h2 {
+    width: 80%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 15%;
+}
+.mainSection .bio .learn {
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    height: 35px;
+    font-size: 15px;
+}
+.active {
+    margin-top: 5%;
+    max-width: 375px;
+    display: inline-block;
+}
+.active .text2 {
+    margin-top: 10%;
+    font-size: 40px;
+}
+.active .skills {
+    flex-direction: column;
+    align-items: center;
+}
+.active .skills .skill {
+    width: 80%;
+    font-size: 10px;
+}
+.active .cost {
+    width: 40%;
+    margin-left: 30%;
+}
+.myWorks {
+    max-width: 375px;
+    flex-direction: column;
+    align-items: center;
+}
+.myWorks .text3 {
+    width: 80%;
+    font-size: 35px;
+    margin-right: 3%
+}
+.myWorks .cards {
+    width: 80%;
+    flex-direction: column;
+    margin-left: 15%;
+}
+.myWorks .cards .work img {
+    width: 250px;
+}
+.myWorks .order .orderButton {
+    width: 100%
+}
+.myWorks .orderButton .order {
+    width: 50%;
+    margin-left: 30%;
+}
+.photo {
+    display: none;
+}
+footer .sec1 {
+    max-width: 375px;
+    height: 160px;
+}
+footer .sec1 .textBlock {
+    width: 80%;
+    align-items: center;
+}
+footer .sec1 .textBlock h2 {
+    width: 80%;
+    margin-top: 3%;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: -8%;
+}
+footer .sec1 .textBlock h3 {
+    display: none;
+    width: 70%;
+    font-size: 15px;
+    line-height: 22px;
+}
+.sec2 {
+    max-width: 375px;
+}
+.sec2 .lists {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    height: 250px;
+}
+.sec2 .list1 {
+    margin-left: -5%;
+    margin-top: -3%;
+    margin-right: 6%;
+    width: 40%;
+}
+.sec2 .lists .list1 ul li {
+    font-size: 17px;
+    line-height: 30px;
+}
+.sec2 .list2 {
+    width: 80%;
+    margin-top: 10%;
+    margin-right: 2%;
+    width: 45%;
+}
+.sec2 .list2 .contact p {
+    width: 80%;
+    font-size: 13px;
 }
 .sec2 .list3 {
     width: 40%;
