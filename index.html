@@ -1,123 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FrontEnd</title>
-    <link rel="stylesheet" href="css/index.css">
-    <meta name="viewport" content="width=device-width"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cappadocia</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="menu">
-            <div class="rightMenu">
-                <ul>
-                    <li>Услуги</li>
-                    <li>Портфолио</li>
-                    <li>Стоимость</li>
+        <nav>
+            <div class="burgerMenu">
+                <input type="checkbox" id="menu_toggle">
+                <label for="menu_toggle" class="menu_btn">
+                    <span></span>
+                </label>
+                <ul class="menu_box">
+                    <li><a href="" class="menu_item">Главная</a></li>
+                    <li><a href="" class="menu_item">Маршрут</a></li>
+                    <li><a href="" class="menu_item">Отель</a></li>
+                    <li><a href="" class="menu_item">Стоимость</a></li>
+                    <li><a href="" class="menu_item" id="emailNumber">+38(066)555-777-6<br>сappadocia.tours@gmail.com</a></li>
                 </ul>
             </div>
-            <div class="phone">
-                <p>+7(499)955-55-77</p>
-                <button class="button">
-                    Заказать звонок
-                </button>
+            <div class="nav">
+                <div class="rightMenu">
+                    <ul>
+                        <li>Маршрут</li>
+                        <li>Отель</li>
+                        <li>Стоимость</li>
+                    </ul>
+                </div>
+                <div class="number">
+                    <img src="img/phone 1.png" alt="">
+                    <p>+38(066)555-777-6</p>
+                </div>
             </div>
-        </div>
+            <div class="firstSec">
+                <div class="mainText">
+                    <h1>Cappadocia</h1>
+                    <h2>Эксклюзивный тур</h2>
+                </div>
+            </div>
+        </nav>
     </header>
-    <section class="mainSection">
-        <div class="bio">
-        <h1>Дмитрий Алексеев</h1>
-        <h2>Front-End разработчик и веб-верстальщик</h2>
-            <button class="learn">
-                Узнать больше
-            </button>
-        </div>
-        <div class="photo">
-            <img src="img/Dmitry Alekseev.png" alt="">
-        </div>
-    </section>
-    <section class="active">
-        <h2 class="text2">Что я делаю</h2>
-        <div class="skills">
-            <div class="skill">
-                <img src="img/icons/tools-and-utensils.png" alt="">
-                <p>Верстка лендинг-страниц <br>и сайтов любой сложности</p>
+        <sec class="sec1">
+            <div class="secText1">
+                <h2>Fairy tail</h2>
+                <h3>Сказочная страна чудес</h3>
             </div>
-            <div class="skill">
-                <img src="img/icons/responsive.png" alt="">
-                <p>Адаптивная верста под все <br>браузеры и устройства</p>
-            </div>
-            <div class="skill">
-                <img src="img/icons/programming.png" alt="">
-                <p>Frontend-разработка<br> и программирование</p>
-            </div>
-            <div class="skill">
-                <img src="img/icons/coding (1).png" alt="">
-                <p>Исправление и доработка <br>существующей верстки</p>
-            </div>
-        </div>
-        <button class="cost">Узнать стоимость</button>
-    </section>
-
-    <section class="myWorks">
-        <h2 class="text3">Примеры моих работ</h2>
-        <div class="cards">
-            <div class="work">
-                <img src="img/Portfolio_1.png" alt="">
-                <p>Сайт психолога Веры Антоновой</p>
-            </div>
-            <div class="work">
-                <img src="img/Portfolio_2.png" alt="">
-                <p>Сайт магазина детской одежды</p>
-            </div>
-            <div class="work">
-                <img src="img/Portfolio_3.png" alt="">
-                <p>Сайт магазина "Рыболов"</p>
-            </div>
-        </div>
-        <div class="orderButton">
-            <button class="order">Заказать проект</button>
-        </div>
-    </section>
-    <footer>
-        <section class="sec1">
-            <div class="textBlock">
-            <h2>Адаптивная верстка под все устройства <br>и браузеры от 1000 рублей всего за 4 часа.*</h2>
-            <h3>*Срок и стоимость может отличаться от заявленных и рассчитываются индивидуально <br> в зависимости от сложности задач.</h3>
-            </div>
-        </section>
-        <section class="sec2">
-            <div class="lists">
-                <div class="list1">
-                        <ul>
-                            <li>Услуги</li>
-                            <li>Портфолио</li>
-                            <li>Стоимость</li>
-                        </ul>
-                    </div>
-                <div class="list2">
-                    <div class="contact">
-                        <img src="img/icons/call-answer (1).png" alt="">
-                        <p>+7(499)955-55-77</p>
-                    </div>  
-                    <div class="contact">
-                        <img src="img/icons/envelope (1).png" alt="">
-                        <p>dmitry@alekseev.com</p>
-                    </div>
+            <div class="gridSec">
+                <div class="secImg">
+                    <img src="img/Rectangle 19.jpg" alt="">
                 </div>
-                <div class="list3">
-                    <button>Заказать звонок</button>
-                    <div class="icons">
-                        <img src="img/icons/vk (1).png" alt="">
-                        <img src="img/icons/facebook-logo (1).png" alt="">
-                        <img src="img/icons/twitter-logo-silhouette.png" alt="">
-                        <img src="img/icons/instagram-social-network-logo-of-photo-camera.png" alt="">
+                <div class="secTxt">
+                    <div class="p1">
+                        <p>Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных дол ин и волшебных рассветов! Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же сделать миллион красивых фотографий!</p>
+                </div>
+                <div class="p1">
+                    <p>Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии! Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со всего мира!</p>
+                </div>
+                <div id="TxtSec">
+                    <div class="p2">
+                        <p>Также Вы увидите:</p>
+                    </div>
+                    <div class="p1">
+                        <p>Музей на открытом воздухе в Гёреме
+                            Ущелье Ыхлара и монастырь Селиме
+                            Подземные города Крепость Учхисар
+                            Зельве и Пашабаг</p>
+                        </div>
+                        <div class="p1">
+                            <p>и многие другие достпримечательности.</p>
+                        </div>
+                        <div class="p1">
+                            <p>Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="footer">
-                <h2>Дмитрий Алексеев, 2016-2018</h2>
-            </div>
-        </section>
-    </footer>
+            </sec>
+            <sec class="sec2">
+                <div class="wrapper">
+                    <div class="secTxt2">
+                        <h2>Our trip</h2>
+                        <h3>Маршрут</h3>
+                        <div class="smallTxt">
+                            <div class="p2">День 1</div>
+                            <div class="p1">Прилёт в Анкару<br>
+                                Трансфер в Каппадокию<br>
+                                Солёное озеро<br>
+                                Приезд в Гёреме<br>
+                                Ужин
+                            </div>
+                            <div class="p2">День 2</div>
+                            <div class="p1">Фотосессия<br>
+                                Завтрак в отеле<br>
+                                Дневной тур по Каппадокии<br>
+                                Закат с панорамным видом
+                            </div>
+                            <div class="p2">День 3</div>
+                            <div class="p1">Полёт на воздушном шаре<br>
+                                Завтрак в отеле<br>
+                                Экскурсии на выбор
+                            </div>
+                            <div class="p2">День 4</div>
+                            <div class="p1">Свободное время, шоппинг<br>
+                                Трансфер в Анкару<br>
+                                Вылет в Киев
+                            </div>
+                            <div class="bookButton">
+                                <button>Забронировать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imgSec2">
+                        <img src="img/Rectangle 22.png" alt="">
+                    </div>
+                </div>
+            </sec>
+            <sec class="sec3">
+                <div class="txtSec3">
+                    <h2>Hotel</h2>
+                    <h3>Sultan Cave Suites</h3>
+                </div>
+                <div class="wrapper2">
+                    <div class="imgSec3">
+                        <img src="img/Rectangle 24.png" alt="">
+                    </div>
+                    <div class="gridSec3">
+                        <div class="textSec3">
+                            <p>
+                                В этом уникальном отеле, расположенном на вершине холма Айдынлы, вы
+                                можете забронировать высеченные в скале номера, обставленные антикварной
+                                мебелью со всей Турции. С солнечной террасы отеля открывается прекрасный
+                                панорамный вид на Национальный парк Гереме.</p>
+                            <p>
+                                Большинство номеров отеля Sultan Cave Suites высечены в скале, что
+                                обеспечивает прохладу и покой. Все номера оборудованы гостиной зоной и
+                                современной ванной комнатой. В большинстве из них есть собственная терраса
+                                или балкон.
+                            </p>
+                            <p>
+                                Отель Cave Suites Sultan располагает изысканным рестораном, где 
+                                подают фирменные блюда региона Каппадокии. После ужина, пройдя на террасу,
+                                 вы сможете заказать напиток и полюбоваться закатом солнца над деревней.
+                            </p>
+                        </div>
+                        <div class="gridImg3">
+                            <img src="img/Rectangle 25.png" alt="">
+                            <img src="img/Rectangle 26.png" alt="">
+                            <img src="img/Rectangle 31.png" alt="">
+                            <img src="img/Rectangle 32.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </sec>
+            <sec class="sec4">
+                <div class="secTxt4">
+                    <h2>Price</h2>
+                    <h3>Стоимость услуг</h3>
+                </div>
+                <div class="wrapper4">
+                    <div class="include">
+                    <h4>Включено</h4>
+                    <p>Проживание в двухместном номере в отеле с завтраками</p>
+                    <p>Индивидуальный трансфер для нашей группы из Анкары и обратно</p>
+                    <p>Экскурсия на Солёное озеро</p>
+                    <p>Индивидуальная дневная экскурсия по лучшим местам Каппадокии с личным транспортом</p>
+                    <p>Фотосессия с профессиональным фотографом для каждой участницы (Несколько локаций, 5 лучших фото в обработке фотографа и весь материал (до 100 фотографий)</p>
+                    </div>
+                    <div class="notInclude">
+                        <h4>Не включено</h4>
+                        <p>Авиа Киев-Анкара-Киев (140-170$)</p>
+                        <p>Обеды и ужины (150$ на поездку)</p>
+                        <p>Воздушный шар 200$</p>
+                        <p>Дополнительные экскурсии (по желанию) от 30$</p>
+                    </div>
+                    <div class="wallper">
+                        <img src="img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 1.png" class="smallImg1">
+                        <img src="img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 2.png" class="smallImg2">
+                        <img src="img/kisspng-flight-hot-air-balloon-computerФІМП-icons-aerostat-5afe08ad4b2f92 3.png" class="smallImg3">
+                    </div>
+                </div>
+            </sec>
+            <sec class="sec5">
+                <div class="txtSec5">
+                    <div class="mainTxt5">
+                        <h2>1.07.2020</h2>
+                        <h3>Ближайшая дата тура</h3>
+                    </div>
+                    <div class="main2Txt5">
+                        <h2>490$</h2>
+                        <h3>Стоимость</h3>
+                    </div>
+                    <div class="blogSec5">
+                        <p>Оставить заявку или задать вопрос</p>
+                        <div class="inputs">
+                            <input type="text" placeholder="Имя" id="">
+                            <input type="number" placeholder="Телефон" id="">
+                            <button>Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="imgSec5">
+                    <img src="img/Rectangle 55.png" alt="">
+                </div>
+            </sec>
+            <footer>
+                <div class="contacts">
+                    <img class="ball" src="img/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92 2.png" alt="">
+                    <div class="txtInBall">
+                        <h3>Contacts</h3>
+                        <div class="numberFooter">
+                            <img src="img/phone 2.svg" alt="">
+                            <p>+38(066)555-777-6</p>
+                        </div>
+                        <div class="email">
+                            <img src="img/mail 1.svg" alt="">
+                            <p>сappadocia.tours@gmail.com</p>
+                        </div>
+                        <div class="icons">
+                            <img src="img/youtube 1.svg" alt="">
+                            <img src="img/facebook 1.svg" alt="">
+                            <img src="img/instagram 1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footerTxt">
+                    <h2>Dreams come true</h2>
+                </div>
+            </footer>
 </body>
 </html>
