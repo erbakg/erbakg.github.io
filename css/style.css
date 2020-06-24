@@ -1573,3 +1573,61 @@ and (max-device-width : 435px) {
         margin-left: 20%;
     }
 }
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 375px) {
+    .mainText h2 {
+        font-size: 30px;
+        margin-left: -15%;
+        margin-top: -3%;
+    }
+    .wrapper {
+        width: 100%;
+        display: block;
+        flex-direction: column-reverse;
+        margin-left: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .gridSec {
+        display: block;
+    }
+    .secImg{
+        width: 100%;
+        text-align: center;
+    }
+    .secImg img {
+        width: 300px;
+        margin-right: 0%;
+    }
+    .secTxt{
+        display: none;
+    }
+    .secTxt2 {
+        width: 100%;
+        display: block;
+    }
+    .secTxt2 h2 {
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .imgSec2 img {
+        margin-top: 10%;
+        width: 300px;
+        margin-left: -10%;
+    }
+    .smallTxt button {
+        margin-left: -20%;
+    }
+    .imgSec5 {
+        display: none;
+    }
+    .sec5 {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 70%;
+    }
+    footer{
+        display: none;
+    }
+}
