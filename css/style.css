@@ -708,8 +708,11 @@ html, body {
     }
     .contacts .ball{
         position: relative;
-        margin-top: 5%;
+        margin-top: 7%;
         left: 25%;
+    }
+    .txtInBall{
+        margin-top: -32%;
     }
     .numberFooter{
         display: flex;
@@ -724,7 +727,7 @@ html, body {
          margin-top: 1%;
     }
 }
-@media screen and (max-width:1360px){
+@media screen and (max-width:1366px){
     .nav {
         width: 80%;
         margin-right: 10%;
@@ -772,9 +775,17 @@ html, body {
         
 }
 @media screen and (max-width:1285px){
+    .nav {
+        width: 80%;
+        margin-right: 10%;
+    } 
+    .rightMenu ul {
+        margin-left: -30%;
+    }
     .smallImg1{
         display: none;
 }
+
 .textSec3 p{
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -1257,7 +1268,7 @@ font-size: 20px;
     margin-left: 26%;
 }
 .imgSec3 {
-    margin-left: -7%;
+    margin-left: -3%;
 }
 .imgSec3 img {
     width: 460px;
@@ -1447,4 +1458,118 @@ footer {
     margin-left: 10%;
 }
 }
- 
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 435px) {
+    .number {
+        display: none;
+    }
+    .mainText{
+        margin-top: 15%;
+    }
+    .mainText h2 {
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    .secImg img {
+        width: 210px;
+        margin-right: 5%;
+    }
+    .imgSec2 img {
+        width: 210px;
+        margin-left: -10%;
+    }
+    .gridImg3 {
+       margin-left: -4%;
+    }
+    .wrapper4 {
+        width: 100%;
+        display: block;
+        margin-right: 1%;
+        margin-top: 1%;
+        text-align: left;
+    }
+    .include {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .include h4{
+        margin-top: 5%;
+    }
+    .include p{
+        margin: 0;
+        line-height: 23px;
+    }
+    .notInclude {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .notInclude h4{
+        margin-top: 5%;
+    }
+    .notInclude p{
+        margin: 0;
+        line-height: 23px;
+    }
+    .wallper {
+        display: none;
+    }
+    .sec5 {
+        width: 100%;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .imgSec5 img {
+        width: 210px;
+    }
+    .mainTxt5 h2 {
+        margin-left: 5%;
+    }
+    .mainTxt5 h3 {
+        margin-left: 10%;
+    }
+    .main2Txt5 h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-left: 43%;
+    }
+    .blogSec5 {
+        margin-left: 0%;
+        margin-bottom: 3%;
+    }
+    .blogSec5 p {
+        display: none;
+    }
+    footer {
+        background: url(../img/Rectangle\ 43.jpg), rgba(255, 255, 255, .2);
+        background-blend-mode: color;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 250px;
+        margin-top: 4%;
+    }
+    .contacts{
+        position: static;
+        margin-top: 15%;
+    }
+    .txtInBall {
+        position: static;
+        left: 27%;
+        margin-top: 0%;
+        text-align: center;
+    }
+    .footerTxt{
+        display: none;
+    }
+    .contacts h3 {
+        font-size: 60px;
+        line-height: 60px;
+        color: #E2AB3F;
+        margin-left: -2.5%;
+    }
+    .numberFooter {
+        margin-left: 25%;
+    }
+    .email {
+        margin-left: 20%;
+    }
+}
