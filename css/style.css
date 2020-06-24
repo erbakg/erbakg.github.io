@@ -724,6 +724,53 @@ html, body {
          margin-top: 1%;
     }
 }
+@media screen and (max-width:1360px){
+    .nav {
+        width: 80%;
+        margin-right: 10%;
+    }
+    .mainText {
+      margin-left: 0;
+    }
+    .mainText h1 {
+       margin-left: -15%;
+    }
+    .sec3{
+        margin-left:0;
+    }
+    .imgSec3 img {
+        width: 590px;
+        margin-left: -5%;
+    }
+    .gridImg3 img {
+        width: 240px;
+        margin-right: 2%;
+        margin-bottom: 10%;
+    }
+    .contacts .ball {
+        position: relative;
+        margin-top: 5%;
+        left: 20%;
+    }
+    .txtInBall {
+        position: relative;
+        left: 26%;
+        margin-top: -34%;
+        z-index: 3;
+    }
+    .footerTxt {
+        position: relative;
+        left: 50%;
+        top: -15%;
+        font-family: "Balqis Script";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 98px;
+        color: #000;
+    }
+        
+}
 @media screen and (max-width:1285px){
     .smallImg1{
         display: none;
@@ -741,16 +788,11 @@ html, body {
     }
     .txtInBall{
         position: relative;
-        left: 31%;
+        left: 26.5%;
         margin-top: -35%;
         z-index: 3;
     }
     .numberFooter{
-        display: flex;
-        align-items: center;
-        font-family: 'Roboto Condensed';
-         font-style: normal;
-         font-weight: 300;
          font-size: 20px;
          line-height: 19px;
          margin-bottom: 1%;
@@ -1107,7 +1149,7 @@ and (max-width:760px){
     }
     .footerTxt{
         font-size: 55px;
-        margin-left: -10%;
+        margin-left: -5%;
     }
 }
 	
