@@ -1619,7 +1619,7 @@ and (max-device-width : 375px) {
         margin-left: -20%;
     }
     .imgSec3 img {
-        width: 360px;
+        width: 350px;
     }
     .gridImg3{
         text-align: center;
@@ -1635,7 +1635,7 @@ and (max-device-width : 375px) {
         width: 100%;
         margin-top: 5%;
         margin-left: 25%;
-        margin-bottom: 70%;
+        margin-bottom: 10%;
     }
     footer{
         display: none;
