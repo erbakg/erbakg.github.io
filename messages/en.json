@@ -1,7 +1,7 @@
 {
   "stats": { "heading": "Impact at scale" },
   "skills": { "heading": "Skills" },
-  "experience": { "heading": "Experience", "parallel": "parallel to full-time", "current": "current" },
+  "experience": { "heading": "Experience", "parallel": "parallel to full-time" },
   "mobile": {
     "heading": "Mobile & Android",
     "body": "Led React Native development at Cointelegraph — iOS + Android, 100K+ active users, 50+ production releases. Built and shipped on both platforms end-to-end.",

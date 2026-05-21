@@ -1,7 +1,7 @@
 {
   "stats": { "heading": "Реальный impact" },
   "skills": { "heading": "Навыки" },
-  "experience": { "heading": "Опыт", "parallel": "параллельно с фултаймом", "current": "сейчас" },
+  "experience": { "heading": "Опыт", "parallel": "параллельно с фултаймом" },
   "mobile": {
     "heading": "Мобильная разработка и Android",
     "body": "Вёл React Native разработку в Cointelegraph — iOS + Android, 100K+ активных пользователей, 50+ продакшен-релизов. Полный цикл на обеих платформах.",

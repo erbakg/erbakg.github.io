@@ -14,7 +14,6 @@ export const Experience = () => {
             key={e.company}
             item={e}
             parallelLabel={t("parallel")}
-            currentLabel={t("current")}
             index={i}
           />
         ))}

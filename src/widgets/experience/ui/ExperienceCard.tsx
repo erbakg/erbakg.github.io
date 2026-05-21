@@ -7,11 +7,10 @@ import type { ResumeExperience } from "@/shared/config/resume";
 type Props = {
   item: ResumeExperience;
   parallelLabel: string;
-  currentLabel: string;
   index: number;
 };
 
-export const ExperienceCard = ({ item, parallelLabel, currentLabel, index }: Props) => (
+export const ExperienceCard = ({ item, parallelLabel, index }: Props) => (
   <motion.article
     initial={{ opacity: 0, y: 16 }}
     whileInView={{ opacity: 1, y: 0 }}
@@ -32,11 +31,6 @@ export const ExperienceCard = ({ item, parallelLabel, currentLabel, index }: Pro
         {item.company}
       </h3>
       <div className="font-mono text-xs text-fg-muted">{item.period}</div>
-      {item.featured && (
-        <span className="inline-block font-mono text-xs uppercase tracking-widest text-accent">
-          ↳ {currentLabel}
-        </span>
-      )}
     </div>
     <div className="space-y-5">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-sm text-fg-muted">
