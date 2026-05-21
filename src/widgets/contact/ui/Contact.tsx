@@ -1,10 +1,11 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Section, SectionHeading, Button, Icon } from "@/shared/ui";
 import { resume } from "@/shared/config/resume";
 
 export const Contact = () => {
   const t = useTranslations("contact");
   const tHero = useTranslations("hero.cta");
+  const locale = useLocale();
   return (
     <Section id="contact">
       <SectionHeading index="05" label="Contact" />
@@ -26,7 +27,7 @@ export const Contact = () => {
             <Icon name="github" />
             {tHero("github")}
           </Button>
-          <Button href={resume.cvPdfUrl} download>
+          <Button href={`/${locale}/cv`}>
             <Icon name="download" />
             {tHero("downloadCv")}
           </Button>

@@ -20,5 +20,21 @@
       "github": "GitHub",
       "email": "Email"
     }
+  },
+  "cv": {
+    "title": "Senior Frontend & React Native Engineer",
+    "profile": "Senior Frontend Engineer with 5+ years building high-performance web and mobile applications. Expert in React, React Native, and TypeScript. Delivered production apps for 100K+ active users — cut load time 6s → 1.8s (−70%) and bundle size 170MB → 110MB. Comfortable both in cross-functional product teams and as the sole frontend owner. Open to relocation.",
+    "sections": {
+      "profile": "Profile",
+      "skills": "Technical Skills",
+      "experience": "Work Experience",
+      "education": "Education",
+      "languages": "Languages"
+    },
+    "actions": {
+      "print": "Save as PDF",
+      "back": "Back to site"
+    },
+    "openToRelocation": "Open to relocation"
   }
 }

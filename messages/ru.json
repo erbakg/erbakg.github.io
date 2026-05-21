@@ -20,5 +20,21 @@
       "github": "GitHub",
       "email": "Email"
     }
+  },
+  "cv": {
+    "title": "Senior Frontend и React Native инженер",
+    "profile": "Senior Frontend инженер с 5+ годами опыта в высокопроизводительных веб- и мобильных приложениях. Эксперт по React, React Native и TypeScript. Запускал продакшен-приложения с аудиторией 100K+ активных пользователей — снизил load time с 6с до 1.8с (−70%) и bundle size с 170MB до 110MB. Опыт работы как в кросс-функциональных продуктовых командах, так и в роли единственного frontend-разработчика. Открыт к релокации.",
+    "sections": {
+      "profile": "О себе",
+      "skills": "Технические навыки",
+      "experience": "Опыт работы",
+      "education": "Образование",
+      "languages": "Языки"
+    },
+    "actions": {
+      "print": "Сохранить как PDF",
+      "back": "На сайт"
+    },
+    "openToRelocation": "Открыт к релокации"
   }
 }

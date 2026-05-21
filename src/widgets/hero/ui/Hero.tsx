@@ -1,9 +1,10 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Section, Button, Icon } from "@/shared/ui";
 import { resume } from "@/shared/config/resume";
 
 export const Hero = () => {
   const t = useTranslations("hero");
+  const locale = useLocale();
 
   return (
     <Section className="grid min-h-[calc(100vh-65px)] items-center gap-16 lg:grid-cols-[3fr_1fr]">
@@ -16,7 +17,7 @@ export const Hero = () => {
           {t("tagline")}
         </p>
         <div className="flex flex-wrap gap-2 pt-2">
-          <Button href={resume.cvPdfUrl} variant="primary" download>
+          <Button href={`/${locale}/cv`} variant="primary">
             <Icon name="download" />
             {t("cta.downloadCv")}
           </Button>

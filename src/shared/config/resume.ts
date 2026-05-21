@@ -20,6 +20,16 @@ export type ResumeSkillCategory = {
   items: string[];
 };
 
+export type ResumeEducation = {
+  title: string;
+  institution: string;
+};
+
+export type ResumeLanguage = {
+  name: string;
+  level: string;
+};
+
 export type ResumeData = {
   name: string;
   title: string;
@@ -29,10 +39,13 @@ export type ResumeData = {
   github: string;
   githubUrl: string;
   cvPdfUrl: string;
+  siteUrl: string;
   location: { city: string; country: string; tz: string };
   stats: ResumeStat[];
   experience: ResumeExperience[];
   skills: ResumeSkillCategory[];
+  education: ResumeEducation[];
+  languages: ResumeLanguage[];
 };
 
 export const resume: ResumeData = {
@@ -44,6 +57,7 @@ export const resume: ResumeData = {
   github: "erbakg",
   githubUrl: "https://github.com/erbakg",
   cvPdfUrl: "/resume/Erbol_Mederbekov_CV_EN.pdf",
+  siteUrl: "https://erbakg.github.io",
   location: { city: "Bishkek", country: "Kyrgyzstan", tz: "GMT+6" },
   stats: [
     { value: "−70%", label: "Load time · 6s → 1.8s", positive: true },
@@ -128,5 +142,20 @@ export const resume: ResumeData = {
         "Android Pro Certification",
       ],
     },
+  ],
+  education: [
+    {
+      title: "Software Development",
+      institution: "State Professional Courses, Kyrgyzstan",
+    },
+    {
+      title: "Android Development",
+      institution: "Professional Certification",
+    },
+  ],
+  languages: [
+    { name: "English", level: "Fluent" },
+    { name: "Russian", level: "Fluent" },
+    { name: "Kyrgyz", level: "Native" },
   ],
 };
