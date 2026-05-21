@@ -15,9 +15,11 @@ export const Typewriter = ({ words, pauseMs = 1500, typeMs = 90 }: Props) => {
       return () => clearTimeout(t);
     }
     if (deleting && text === "") {
-      setDeleting(false);
-      setWordIndex((i) => (i + 1) % words.length);
-      return;
+      const t = setTimeout(() => {
+        setDeleting(false);
+        setWordIndex((i) => (i + 1) % words.length);
+      }, 0);
+      return () => clearTimeout(t);
     }
     const t = setTimeout(
       () => {
