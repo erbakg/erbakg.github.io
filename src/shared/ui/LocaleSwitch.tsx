@@ -20,12 +20,7 @@ export const LocaleSwitch = ({ currentLocale, className }: Props) => {
   const locales: Locale[] = ["en", "ru"];
 
   return (
-    <div
-      className={cn(
-        "inline-flex items-center gap-2 rounded-full border border-border bg-bg-elevated/80 px-3 py-1 font-mono text-xs backdrop-blur",
-        className,
-      )}
-    >
+    <div className={cn("inline-flex items-center gap-2 font-mono text-xs", className)}>
       {locales.map((l, i) => (
         <span key={l} className="flex items-center gap-2">
           <Link
@@ -37,7 +32,7 @@ export const LocaleSwitch = ({ currentLocale, className }: Props) => {
           >
             {l.toUpperCase()}
           </Link>
-          {i === 0 && <span className="text-border">|</span>}
+          {i === 0 && <span className="text-border">/</span>}
         </span>
       ))}
     </div>

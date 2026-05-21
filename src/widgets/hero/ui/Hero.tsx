@@ -1,22 +1,28 @@
 import { useTranslations } from "next-intl";
 import { Section, Button, Icon } from "@/shared/ui";
 import { resume } from "@/shared/config/resume";
-import { Typewriter } from "./Typewriter";
 
 export const Hero = () => {
   const t = useTranslations("hero");
-  const stack = ["React 19", "TypeScript", "React Native", "Next.js 15", "Tailwind v4"];
 
   return (
-    <Section className="grid min-h-[88vh] items-center gap-12 lg:grid-cols-2">
-      <div className="space-y-6">
-        <p className="font-mono text-sm text-fg-muted">{t("eyebrow")}</p>
-        <h1 className="text-5xl font-semibold tracking-tight lg:text-7xl">{resume.name}</h1>
-        <p className="max-w-xl text-lg text-fg-muted">{t("tagline")}</p>
-        <div className="flex flex-wrap gap-3 pt-4">
+    <Section className="grid min-h-[calc(100vh-65px)] items-center gap-16 lg:grid-cols-[3fr_1fr]">
+      <div className="space-y-8">
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-accent">{t("eyebrow")}</p>
+        <h1 className="text-5xl font-semibold leading-[0.95] tracking-tight md:text-7xl lg:text-8xl">
+          {resume.name}
+        </h1>
+        <p className="max-w-2xl text-xl leading-relaxed text-fg-muted lg:text-2xl">
+          {t("tagline")}
+        </p>
+        <div className="flex flex-wrap gap-2 pt-2">
           <Button href={resume.cvPdfUrl} variant="primary" download>
             <Icon name="download" />
             {t("cta.downloadCv")}
+          </Button>
+          <Button href={`mailto:${resume.email}`}>
+            <Icon name="email" />
+            {t("cta.email")}
           </Button>
           <Button href={resume.telegramUrl} external>
             <Icon name="telegram" />
@@ -26,18 +32,30 @@ export const Hero = () => {
             <Icon name="github" />
             {t("cta.github")}
           </Button>
-          <Button href={`mailto:${resume.email}`}>
-            <Icon name="email" />
-            {t("cta.email")}
-          </Button>
         </div>
       </div>
-      <div className="hidden lg:flex lg:items-center lg:justify-center">
-        <div className="rounded-lg border border-border bg-bg-elevated p-8 font-mono text-2xl">
-          <span className="text-fg-muted">{`> `}</span>
-          <Typewriter words={stack} />
-        </div>
-      </div>
+      <aside className="hidden border-l border-border pl-8 font-mono text-xs leading-relaxed text-fg-muted lg:block">
+        <dl className="space-y-5">
+          <div>
+            <dt className="text-fg-muted/60">LOC</dt>
+            <dd className="text-fg">
+              {resume.location.city}, {resume.location.country}
+            </dd>
+          </div>
+          <div>
+            <dt className="text-fg-muted/60">TZ</dt>
+            <dd className="text-fg">{resume.location.tz}</dd>
+          </div>
+          <div>
+            <dt className="text-fg-muted/60">EXP</dt>
+            <dd className="text-fg">5+ years</dd>
+          </div>
+          <div>
+            <dt className="text-fg-muted/60">STATUS</dt>
+            <dd className="text-positive">Open to relocation</dd>
+          </div>
+        </dl>
+      </aside>
     </Section>
   );
 };

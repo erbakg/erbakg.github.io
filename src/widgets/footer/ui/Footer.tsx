@@ -1,12 +1,8 @@
-import { LocaleSwitch } from "@/shared/ui";
 import { resume } from "@/shared/config/resume";
 
-type Props = { locale: "en" | "ru" };
-
-export const Footer = ({ locale }: Props) => (
+export const Footer = () => (
   <footer className="border-t border-border">
-    <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 font-mono text-xs text-fg-muted sm:flex-row">
-      <LocaleSwitch currentLocale={locale} />
+    <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-6 py-6 font-mono text-xs text-fg-muted sm:flex-row">
       <span>© 2026 {resume.name}</span>
       <a
         href={resume.githubUrl}

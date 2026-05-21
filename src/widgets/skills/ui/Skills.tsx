@@ -1,37 +1,38 @@
 "use client";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Section, Tag } from "@/shared/ui";
+import { Section, SectionHeading } from "@/shared/ui";
 import { resume } from "@/shared/config/resume";
 
 export const Skills = () => {
   const t = useTranslations("skills");
   return (
     <Section id="skills">
-      <h2 className="mb-12 font-mono text-xs uppercase tracking-widest text-fg-muted">
-        {t("heading")}
-      </h2>
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <SectionHeading index="03" label={t("heading")} />
+      <dl className="divide-y divide-border">
         {resume.skills.map((cat, i) => (
           <motion.div
             key={cat.category}
-            initial={{ opacity: 0, y: 12 }}
+            initial={{ opacity: 0, y: 8 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.2 }}
-            transition={{ duration: 0.35, delay: i * 0.04 }}
-            className="rounded-lg border border-border bg-bg-elevated/40 p-5"
+            viewport={{ once: true, amount: 0.4 }}
+            transition={{ duration: 0.3, delay: i * 0.03 }}
+            className="grid gap-3 py-4 lg:grid-cols-[200px_1fr] lg:gap-8 lg:py-5"
           >
-            <p className="mb-3 font-mono text-xs uppercase tracking-widest text-accent">
+            <dt className="font-mono text-xs uppercase tracking-[0.2em] text-accent">
               {cat.category}
-            </p>
-            <div className="flex flex-wrap gap-1.5">
-              {cat.items.map((it) => (
-                <Tag key={it}>{it}</Tag>
+            </dt>
+            <dd className="text-base text-fg">
+              {cat.items.map((it, j) => (
+                <span key={it}>
+                  {it}
+                  {j < cat.items.length - 1 && <span className="text-fg-muted">, </span>}
+                </span>
               ))}
-            </div>
+            </dd>
           </motion.div>
         ))}
-      </div>
+      </dl>
     </Section>
   );
 };

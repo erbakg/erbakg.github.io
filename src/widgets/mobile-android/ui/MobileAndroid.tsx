@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Section, Tag } from "@/shared/ui";
+import { Section, SectionHeading, Tag } from "@/shared/ui";
 
 const tags = ["React Native", "React Navigation", "Java", "Kotlin", "Android SDK", "MVVM"];
 
@@ -9,29 +9,25 @@ export const MobileAndroid = () => {
   const t = useTranslations("mobile");
   return (
     <Section id="mobile">
+      <SectionHeading index="04" label="Focus" />
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.3 }}
         transition={{ duration: 0.4 }}
-        className="overflow-hidden rounded-xl border border-border bg-gradient-to-br from-bg-elevated/60 to-bg p-8 lg:p-12"
+        className="grid gap-10 lg:grid-cols-[1.6fr_1fr] lg:gap-16"
       >
-        <div className="grid gap-8 lg:grid-cols-[1.4fr_1fr] lg:items-center">
-          <div>
-            <p className="mb-3 font-mono text-xs uppercase tracking-widest text-accent">
-              focus
-            </p>
-            <h2 className="mb-5 text-3xl font-semibold lg:text-4xl">{t("heading")}</h2>
-            <p className="mb-3 text-fg-muted">{t("body")}</p>
-            <p className="text-fg-muted">{t("cert")}</p>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {tags.map((s) => (
-              <Tag key={s} className="text-sm">
-                {s}
-              </Tag>
-            ))}
-          </div>
+        <div className="space-y-6">
+          <h2 className="max-w-2xl text-4xl font-semibold leading-[1.05] tracking-tight lg:text-6xl">
+            {t("heading")}
+          </h2>
+          <p className="max-w-xl text-lg leading-relaxed text-fg-muted">{t("body")}</p>
+          <p className="max-w-xl font-mono text-sm leading-relaxed text-fg-muted">{t("cert")}</p>
+        </div>
+        <div className="flex flex-wrap gap-1.5 self-end lg:justify-end">
+          {tags.map((s) => (
+            <Tag key={s}>{s}</Tag>
+          ))}
         </div>
       </motion.div>
     </Section>

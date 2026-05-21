@@ -10,16 +10,16 @@ export const StatTile = ({ value, label, positive, index }: Props) => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.3 }}
     transition={{ duration: 0.4, delay: index * 0.08 }}
-    className="rounded-lg border border-border bg-bg-elevated/40 p-6 transition-colors hover:border-fg-muted"
+    className="px-0 py-8 md:px-6 md:first:pl-0 md:last:pr-0 lg:py-2"
   >
     <div
       className={cn(
-        "font-mono text-4xl font-semibold lg:text-5xl",
+        "font-mono text-5xl font-semibold leading-none tracking-tight lg:text-6xl",
         positive ? "text-positive" : "text-fg",
       )}
     >
       {value}
     </div>
-    <p className="mt-2 font-mono text-xs text-fg-muted">{label}</p>
+    <p className="mt-4 font-mono text-xs leading-snug text-fg-muted">{label}</p>
   </motion.div>
 );
