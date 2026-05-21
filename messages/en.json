@@ -1,5 +1,6 @@
 {
   "stats": { "heading": "Impact at scale" },
+  "experience": { "heading": "Experience", "parallel": "parallel to full-time" },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Building high-performance React & React Native apps for 100K+ users.",
