@@ -7,6 +7,10 @@
     "body": "Вёл React Native разработку в Cointelegraph — iOS + Android, 100K+ активных пользователей, 50+ продакшен-релизов. Полный цикл на обеих платформах.",
     "cert": "Android Professional Certification — Java, Kotlin, Android SDK, MVVM."
   },
+  "contact": {
+    "heading": "Открыт к релокации. Давайте знакомиться.",
+    "subheading": "Бишкек, Киргизия · GMT+6"
+  },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Высокопроизводительные React и React Native приложения для 100K+ пользователей.",
