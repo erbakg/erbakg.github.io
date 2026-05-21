@@ -2,6 +2,11 @@
   "stats": { "heading": "Impact at scale" },
   "skills": { "heading": "Skills" },
   "experience": { "heading": "Experience", "parallel": "parallel to full-time" },
+  "mobile": {
+    "heading": "Mobile & Android",
+    "body": "Led React Native development at Cointelegraph — iOS + Android, 100K+ active users, 50+ production releases. Built and shipped on both platforms end-to-end.",
+    "cert": "Android Professional Certification — Java, Kotlin, Android SDK, MVVM."
+  },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Building high-performance React & React Native apps for 100K+ users.",

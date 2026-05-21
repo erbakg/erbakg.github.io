@@ -2,6 +2,11 @@
   "stats": { "heading": "Реальный impact" },
   "skills": { "heading": "Навыки" },
   "experience": { "heading": "Опыт", "parallel": "параллельно с фултаймом" },
+  "mobile": {
+    "heading": "Мобильная разработка и Android",
+    "body": "Вёл React Native разработку в Cointelegraph — iOS + Android, 100K+ активных пользователей, 50+ продакшен-релизов. Полный цикл на обеих платформах.",
+    "cert": "Android Professional Certification — Java, Kotlin, Android SDK, MVVM."
+  },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Высокопроизводительные React и React Native приложения для 100K+ пользователей.",
