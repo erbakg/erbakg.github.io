@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "eyebrow": "> frontend.engineer",
+    "tagline": "Building high-performance React & React Native apps for 100K+ users.",
+    "cta": {
+      "downloadCv": "Download CV",
+      "telegram": "Telegram",
+      "github": "GitHub",
+      "email": "Email"
+    }
+  }
+}
