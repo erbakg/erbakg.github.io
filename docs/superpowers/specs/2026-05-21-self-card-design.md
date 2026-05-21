@@ -127,34 +127,80 @@ other. Each widget exposes a single component via `index.ts`.
   - `−70%` Load time · `6s → 1.8s`
   - `−35%` Bundle size · `170MB → 110MB`
   - `100K+` Active users · `iOS + Android`
-  - `50+` Production releases · `2022 – 2026`
+  - `50+` Production releases · `Aug 2022 – 2026`
 - Each tile: huge mono number (cyan for positive deltas like `−70%`, plain
   white for counts), label below, hairline border, subtle hover lift.
 - Framer Motion `whileInView` with `stagger: 0.08`.
 
 ### Experience
-- 3 cards in a vertical stack. Cointelegraph card has a thin cyan left border
-  to indicate "current / featured".
+- Vertical stack of cards. Cointelegraph card has a thin cyan left border
+  to indicate "featured / longest tenure".
 - Card structure:
-  - Header row: `Company` (large) · `Role` (mono, secondary)
-  - Period row: `Sep 2022 – 2026` (mono, secondary)
-  - 2–3 bullets (impact-focused, copied/condensed from CV)
+  - Header row: `Company` (large) · `Role` (mono, secondary) · optional
+    location chip (e.g. `Tallinn, EE`, `Bishkek, KG`, `Remote`)
+  - Period row: `Aug 2022 – 2026` (mono, secondary)
+  - 2–3 bullets (impact-focused; pulled from CV bullets where applicable)
   - Tag chips: stack used (mono, small, hairline border)
-- Entries (verified against CV):
-  - **Cointelegraph** · Senior React Native / Frontend Developer ·
-    Sep 2022 – 2026
-  - **NDA Projects** (Freelance) · Frontend Engineer · 2021 – 2022 ·
-    sub-list of 3 projects (ERP / Customer CRM / Banking Debt CRM)
-  - **Paradigma LLC** · Frontend Developer · Jan 2020 – Sep 2021
+- Order: newest first. Entries reflect actual LinkedIn experience plus the
+  parallel freelance track from the CV.
 
-> **Important:** Cointelegraph period reads `2022 – 2026` (not "Present"), per
-> the user's clarification.
+Entries (verified against the user's LinkedIn profile + CV):
+
+1. **Cointelegraph** · React Native Developer (Full-time) · Aug 2022 – 2026 ·
+   Remote · **featured**
+   - Mobile MVP for crypto-news platform, iOS + Android
+   - Cut load time 6s → 1.8s (−70%), bundle 170 MB → 110 MB
+   - Shipped 50+ production releases; reached 100K+ active users
+   - Tags: React Native, React, TypeScript, Redux Toolkit, Apollo GraphQL,
+     Firebase, Sentry, Android (Java, Kotlin), MVVM, Android SDK
+
+2. **Yllo** · React Native Developer (Contract) · Jun 2022 – Aug 2022 ·
+   Remote
+   - Short-term contract, mobile feature delivery
+   - Tags: React Native, React, Node.js, JavaScript, Android
+
+3. **Zoftify** · React Native Developer (Full-time) · Dec 2021 – May 2022 ·
+   Tallinn, EE
+   - Mobile product development, cross-platform iOS/Android
+   - Tags: React Native, Android, JavaScript
+
+4. **Freelance — NDA Projects** · Frontend Engineer · 2021 – 2022 · Remote
+   - **ERP System** — B2B platform: DnD layouts, virtualized lists
+     (react-window), multi-step forms (RHF + Zod), Uppy + S3 uploads, i18n.
+     Code reviews and architectural decisions.
+   - **Customer CRM** — data dashboard with Leaflet maps, Framer Motion,
+     TanStack Router, PWA.
+   - **Banking Debt CRM** — enterprise debt-collection system: MobX, custom
+     Webpack, Nivo charts, 2GIS MapGL, SCSS architecture. Sole frontend.
+
+5. **Paradigma** · Front-End Developer (Full-time) · Jan 2021 – Dec 2021 ·
+   Bishkek, KG
+   - Hybrid mobile + responsive web apps with React, Redux
+   - Tags: React, Redux, Android
+
+6. **It-hub** · Front End Assistant (Part-time) · May 2020 – Dec 2020 ·
+   8 mos
+   - First role: hands-on frontend foundations — HTML/CSS/JS, React basics,
+     working in a real codebase under senior guidance
+   - Tags: JavaScript, React, HTML, CSS
+
+> **Important:** Cointelegraph period reads `Aug 2022 – 2026` (not "Present"),
+> per the user's clarification. Cointelegraph role is the only one carrying
+> the cyan-border "featured" treatment.
+
+> **Note on the Freelance card:** Dates overlap with Zoftify / Yllo /
+> Cointelegraph because the freelance track ran alongside full-time work.
+> Card label includes `(parallel to full-time)` micro-note for transparency.
 
 ### Skills
 - Grid of categorized cards. Each card: mono category label + list of tags.
 - Categories pulled directly from CV: Core, UI / Styling, Build, Testing,
-  State, Monitoring, Data, Tooling, Routing, Mobile, Forms.
+  State, Monitoring, Data, Tooling, Routing, **Mobile**, **Android**, Forms.
 - 2-column grid on tablet, 3 or 4 on desktop, 1 on mobile.
+- **Mobile** card: React Native, React Navigation, Reanimated, iOS, cross-
+  platform.
+- **Android** card (new — explicit, per user emphasis): Java, Kotlin,
+  Android SDK, Android Studio, MVVM, Android Professional Certification.
 
 ### Mobile & Android
 - Wider, more visual block. Two-column on desktop:
