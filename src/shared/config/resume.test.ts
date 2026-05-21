@@ -16,8 +16,8 @@ describe("resume", () => {
     });
   });
 
-  it("has 6 experience entries with Cointelegraph as featured", () => {
-    expect(resume.experience).toHaveLength(6);
+  it("has 2 experience entries with Cointelegraph as featured", () => {
+    expect(resume.experience).toHaveLength(2);
     const featured = resume.experience.filter((e) => e.featured);
     expect(featured).toHaveLength(1);
     expect(featured[0].company).toBe("Cointelegraph");
@@ -26,7 +26,14 @@ describe("resume", () => {
 
   it("orders experience newest first", () => {
     expect(resume.experience[0].company).toBe("Cointelegraph");
-    expect(resume.experience[resume.experience.length - 1].company).toBe("It-hub");
+    expect(resume.experience[resume.experience.length - 1].company).toContain("Freelance");
+  });
+
+  it("freelance entry includes React Native and spans 2019-2022", () => {
+    const freelance = resume.experience.find((e) => e.company.includes("Freelance"));
+    expect(freelance).toBeDefined();
+    expect(freelance!.period).toBe("2019 – 2022");
+    expect(freelance!.stack).toContain("React Native");
   });
 
   it("has dedicated Android skill card", () => {
