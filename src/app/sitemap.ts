@@ -1,14 +1,16 @@
 import type { MetadataRoute } from "next";
 
+export const dynamic = "force-static";
+
 const sitemap = (): MetadataRoute.Sitemap => {
-  const base = "https://example.com"; // replace post-deploy
+  const base = "https://erbakg.github.io";
   return [
     {
-      url: `${base}/en`,
+      url: `${base}/en/`,
       lastModified: new Date(),
-      alternates: { languages: { en: `${base}/en`, ru: `${base}/ru` } },
+      alternates: { languages: { en: `${base}/en/`, ru: `${base}/ru/` } },
     },
-    { url: `${base}/ru`, lastModified: new Date() },
+    { url: `${base}/ru/`, lastModified: new Date() },
   ];
 };
 
