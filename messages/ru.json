@@ -1,4 +1,5 @@
 {
+  "stats": { "heading": "Реальный impact" },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Высокопроизводительные React и React Native приложения для 100K+ пользователей.",

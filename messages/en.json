@@ -1,4 +1,5 @@
 {
+  "stats": { "heading": "Impact at scale" },
   "hero": {
     "eyebrow": "> frontend.engineer",
     "tagline": "Building high-performance React & React Native apps for 100K+ users.",
