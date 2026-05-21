@@ -27,7 +27,7 @@ export const Button = ({
   className,
 }: Props) => {
   const cls = cn(base, styles[variant], className);
-  if (external || download) {
+  if (external || download || href.startsWith("mailto:")) {
     return (
       <a
         href={href}
