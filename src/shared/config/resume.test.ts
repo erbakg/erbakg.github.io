@@ -6,6 +6,7 @@ describe("resume", () => {
     expect(resume.name).toBe("Erbol Mederbekov");
     expect(resume.email).toMatch(/@/);
     expect(resume.cvPdfUrl).toBe("/resume/Erbol_Mederbekov_CV_EN.pdf");
+    expect(resume.cvPdfUrlRu).toBe("/resume/Erbol_Mederbekov_CV_RU.pdf");
   });
 
   it("has exactly 4 impact stats", () => {

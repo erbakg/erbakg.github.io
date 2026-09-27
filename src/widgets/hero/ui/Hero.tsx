@@ -25,7 +25,11 @@ export const Hero = () => {
           {t("tagline")}
         </p>
         <div className="mt-8 flex flex-wrap gap-2">
-          <Button href={`/${locale}/cv`} variant="primary">
+          <Button
+            href={locale === "ru" ? resume.cvPdfUrlRu : resume.cvPdfUrl}
+            download
+            variant="primary"
+          >
             <Icon name="download" />
             {t("cta.downloadCv")}
           </Button>

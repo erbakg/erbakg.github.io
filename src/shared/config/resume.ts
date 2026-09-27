@@ -48,6 +48,7 @@ export type ResumeData = {
   github: string;
   githubUrl: string;
   cvPdfUrl: string;
+  cvPdfUrlRu: string;
   siteUrl: string;
   location: { city: string; country: string; tz: string };
   stats: ResumeStat[];
@@ -70,6 +71,7 @@ export const resume: ResumeData = {
   github: "erbakg",
   githubUrl: "https://github.com/erbakg",
   cvPdfUrl: "/resume/Erbol_Mederbekov_CV_EN.pdf",
+  cvPdfUrlRu: "/resume/Erbol_Mederbekov_CV_RU.pdf",
   siteUrl: "https://erbakg.github.io",
   location: { city: "Bishkek", country: "Kyrgyzstan", tz: "GMT+6" },
   stats: [

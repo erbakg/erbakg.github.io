@@ -29,7 +29,11 @@ export const Contact = () => {
               <Icon name="github" />
               {tHero("github")}
             </Button>
-            <Button href={`/${locale}/cv`} className="w-full">
+            <Button
+              href={locale === "ru" ? resume.cvPdfUrlRu : resume.cvPdfUrl}
+              download
+              className="w-full"
+            >
               <Icon name="download" />
               {tHero("downloadCv")}
             </Button>
