@@ -108,13 +108,13 @@ export const resume: ResumeData = {
       bullets: [
         "Worked on a modular ERP/CRM ecosystem for real estate and construction: projects, contractors, contracts, payments, materials, tenders, warehouse, documents, reports, and approval workflows.",
         "Built Gantt-based planning, GPR/UGPR/VDC scenarios, role-aware editing, baseline revisions, timeline navigation, and supplier proposals.",
-        "Contributed to Artwin, a residential real-estate catalog, and adapted Nurzaman, a corporate task-management frontend with SSO, ERP notifications, and protected WebView navigation.",
+        "Contributed to a mobile catalog for residential projects, apartments, parking, and commercial spaces, and adapted a corporate task-management frontend with SSO, ERP notifications, and protected WebView navigation.",
         "Developed Soft Collection CRM workflows for credit, payments, Legal, Fraud, field assignments on 2GIS maps, permissions, map caching, and relationship analysis.",
       ],
       bulletsRu: [
         "Участвовал в разработке модульной ERP/CRM-экосистемы для недвижимости и строительства: проекты, объекты, подрядчики, договоры, платежи, материалы, тендеры, склад, документы, отчёты и approval workflows.",
         "Реализовывал планирование на основе Gantt, GPR/UGPR/VDC-сценарии, редактуру с учётом ролей и прав доступа, baseline revisions, навигацию по таймлайну и коммерческие предложения поставщиков.",
-        "Участвовал в разработке Artwin — мобильного каталога жилой недвижимости, и адаптировал Nurzaman — корпоративный task-management frontend с SSO, ERP-уведомлениями и защищённой навигацией в WebView.",
+        "Участвовал в разработке мобильного каталога жилой недвижимости, квартир, парковок и коммерческих помещений, а также адаптировал корпоративный task-management frontend с SSO, ERP-уведомлениями и защищённой навигацией в WebView.",
         "Развивал Soft Collection CRM: кредитные и клиентские сценарии, обещания платежа, Legal и Fraud, распределение выездов и звонков на карте 2GIS, permissions, кэширование карты и анализ связей.",
       ],
       stack: [

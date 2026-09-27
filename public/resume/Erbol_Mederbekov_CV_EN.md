@@ -20,7 +20,7 @@ Senior Frontend Engineer with 5+ years building high-performance web and mobile 
 
 - Built a modular ERP/CRM ecosystem for real estate and construction: projects and objects, contractors, contracts, payments, materials, tenders, warehouse, documents, reports, and approval workflows.
 - Delivered Gantt planning with GPR/UGPR/VDC scenarios, role-aware editing, baseline revisions, timeline navigation, and supplier commercial proposals.
-- Developed the Artwin mobile catalog for residential projects, apartments, parking, and commercial spaces, plus the Nurzaman task-management frontend with SSO, ERP notifications, and protected WebView navigation.
+- Developed a mobile catalog for residential projects, apartments, parking, and commercial spaces, plus a corporate task-management frontend with SSO, ERP notifications, and protected WebView navigation.
 - Built Soft Collection CRM workflows for credit and customer scenarios, payment promises, Legal/Fraud statuses, 2GIS assignments, map caching, permissions, and relationship analysis.
 
 **Stack:** React, TypeScript, Vue 3, Vite, Redux Toolkit, Pinia, TanStack Router, Ant Design, @mdigital/ui, Tailwind CSS, WebSockets, 2GIS MapGL, Vitest, Playwright, Sentry
