@@ -1,19 +1,53 @@
 {
-  "stats": { "heading": "Impact at scale" },
-  "skills": { "heading": "Skills" },
-  "experience": { "heading": "Experience", "parallel": "parallel to full-time" },
+  "nav": {
+    "work": "Work",
+    "toolkit": "Toolkit",
+    "contact": "Contact",
+    "talk": "Let's talk"
+  },
+  "stats": {
+    "heading": "A track record you can scan",
+    "subheading": "A few numbers from products I have helped take from idea to everyday use."
+  },
+  "skills": {
+    "heading": "Toolkit",
+    "subheading": "The tools I reach for when the interface has to be fast, clear, and maintainable."
+  },
+  "experience": {
+    "heading": "Where I've worked",
+    "subheading": "Product teams, client work, and the less glamorous details that make software hold up in production.",
+    "parallel": "alongside full-time work",
+    "featured": "Most recent"
+  },
   "mobile": {
-    "heading": "Mobile & Android",
-    "body": "Led React Native development at Cointelegraph — iOS + Android, 100K+ active users, 50+ production releases. Built and shipped on both platforms end-to-end.",
-    "cert": "Android Professional Certification — Java, Kotlin, Android SDK, MVVM."
+    "eyebrow": "A second home",
+    "heading": "Mobile products, without the platform drama.",
+    "body": "I led React Native development at Cointelegraph across iOS and Android: from first screen to release pipeline, performance work, and the small fixes users never notice.",
+    "cert": "Android Professional Certification · Java · Kotlin · Android SDK · MVVM",
+    "ios": "iOS",
+    "iosDetail": "React Native · release work · product polish",
+    "android": "Android",
+    "androidDetail": "Java · Kotlin · Android SDK · MVVM"
   },
   "contact": {
+    "eyebrow": "Have a good problem?",
     "heading": "Open to relocation. Let's talk.",
-    "subheading": "Bishkek, Kyrgyzstan · GMT+6"
+    "subheading": "Bishkek, Kyrgyzstan · GMT+6",
+    "body": "I am most useful where product thinking and careful frontend work need to meet. Drop me a line and tell me what you are building."
   },
   "hero": {
-    "eyebrow": "> frontend.engineer",
-    "tagline": "Building high-performance React & React Native apps for 100K+ users.",
+    "eyebrow": "Frontend engineer · React Native",
+    "title": "I build products people can rely on.",
+    "tagline": "React and React Native engineer focused on fast, useful interfaces — from first screen to production.",
+    "availability": "Open to relocation",
+    "location": "Bishkek, Kyrgyzstan · GMT+6",
+    "card": {
+      "label": "A little about my work",
+      "line1": "I like complex products",
+      "line2": "that feel simple to use.",
+      "currently": "Currently working with",
+      "stack": "React · React Native · TypeScript"
+    },
     "cta": {
       "downloadCv": "Download CV",
       "telegram": "Telegram",

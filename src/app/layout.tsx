@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const generateMetadata = async (): Promise<Metadata> => {
   const t = await getTranslations({ locale: "en", namespace: "hero" });
-  const title = "Erbol Mederbekov — Frontend Engineer";
+  const title = `Erbol Mederbekov — ${resume.title}`;
   const description = t("tagline");
   return {
     metadataBase: new URL("https://erbakg.github.io"),
@@ -24,7 +24,11 @@ export const generateMetadata = async (): Promise<Metadata> => {
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => (
-  <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+  <html
+    lang="en"
+    data-scroll-behavior="smooth"
+    className={`${geistSans.variable} ${geistMono.variable}`}
+  >
     <body className="antialiased">
       <script
         type="application/ld+json"

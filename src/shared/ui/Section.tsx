@@ -8,13 +8,7 @@ type Props = {
 };
 
 export const Section = ({ id, className, children, as: Tag = "section" }: Props) => (
-  <Tag
-    id={id}
-    className={cn(
-      "mx-auto w-full max-w-6xl px-6 py-24 lg:py-32",
-      className,
-    )}
-  >
+  <Tag id={id} className={cn("mx-auto w-full max-w-7xl px-5 py-20 sm:px-8 lg:py-28", className)}>
     {children}
   </Tag>
 );

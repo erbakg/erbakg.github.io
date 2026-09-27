@@ -1,19 +1,53 @@
 {
-  "stats": { "heading": "Реальный impact" },
-  "skills": { "heading": "Навыки" },
-  "experience": { "heading": "Опыт", "parallel": "параллельно с фултаймом" },
+  "nav": {
+    "work": "Опыт",
+    "toolkit": "Стек",
+    "contact": "Контакты",
+    "talk": "Давайте знакомиться"
+  },
+  "stats": {
+    "heading": "Несколько цифр вместо громких слов",
+    "subheading": "Результаты продуктов, которые я помогал довести от идеи до ежедневного использования."
+  },
+  "skills": {
+    "heading": "Стек",
+    "subheading": "Инструменты, к которым я обращаюсь, когда интерфейс должен быть быстрым, ясным и поддерживаемым."
+  },
+  "experience": {
+    "heading": "Где я работал",
+    "subheading": "Продуктовые команды, клиентские проекты и те детали, благодаря которым софт выдерживает продакшен.",
+    "parallel": "параллельно с фултаймом",
+    "featured": "Последняя роль"
+  },
   "mobile": {
-    "heading": "Мобильная разработка и Android",
-    "body": "Вёл React Native разработку в Cointelegraph — iOS + Android, 100K+ активных пользователей, 50+ продакшен-релизов. Полный цикл на обеих платформах.",
-    "cert": "Android Professional Certification — Java, Kotlin, Android SDK, MVVM."
+    "eyebrow": "Вторая сильная сторона",
+    "heading": "Мобильные продукты без драмы платформ.",
+    "body": "Вёл React Native разработку в Cointelegraph на iOS и Android: от первого экрана до релиза, мониторинга производительности и небольших исправлений, которые пользователи даже не замечают.",
+    "cert": "Android Professional Certification · Java · Kotlin · Android SDK · MVVM",
+    "ios": "iOS",
+    "iosDetail": "React Native · релизы · внимание к деталям",
+    "android": "Android",
+    "androidDetail": "Java · Kotlin · Android SDK · MVVM"
   },
   "contact": {
+    "eyebrow": "Есть интересная задача?",
     "heading": "Открыт к релокации. Давайте знакомиться.",
-    "subheading": "Бишкек, Киргизия · GMT+6"
+    "subheading": "Бишкек, Киргизия · GMT+6",
+    "body": "Лучше всего я работаю там, где продуктовый взгляд встречается с аккуратным frontend. Напишите, что вы строите."
   },
   "hero": {
-    "eyebrow": "> frontend.engineer",
-    "tagline": "Высокопроизводительные React и React Native приложения для 100K+ пользователей.",
+    "eyebrow": "Frontend engineer · React Native",
+    "title": "Создаю продукты, на которые можно рассчитывать.",
+    "tagline": "React и React Native инженер, который делает быстрые и понятные интерфейсы — от первого экрана до продакшена.",
+    "availability": "Открыт к релокации",
+    "location": "Бишкек, Киргизия · GMT+6",
+    "card": {
+      "label": "Немного о моей работе",
+      "line1": "Люблю сложные продукты,",
+      "line2": "которыми легко пользоваться.",
+      "currently": "Сейчас работаю с",
+      "stack": "React · React Native · TypeScript"
+    },
     "cta": {
       "downloadCv": "Скачать резюме",
       "telegram": "Telegram",

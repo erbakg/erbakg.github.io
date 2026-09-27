@@ -24,7 +24,7 @@ const Page = async ({ params }: { params: Promise<{ locale: Locale }> }) => {
         <MobileAndroid />
         <Contact />
       </main>
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 };

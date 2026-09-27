@@ -16,7 +16,7 @@ describe("resume", () => {
     });
   });
 
-  it("has 2 experience entries with Cointelegraph as featured", () => {
+  it("has the full experience timeline with Cointelegraph as featured", () => {
     expect(resume.experience).toHaveLength(2);
     const featured = resume.experience.filter((e) => e.featured);
     expect(featured).toHaveLength(1);
@@ -26,7 +26,7 @@ describe("resume", () => {
 
   it("orders experience newest first", () => {
     expect(resume.experience[0].company).toBe("Cointelegraph");
-    expect(resume.experience[resume.experience.length - 1].company).toContain("Freelance");
+    expect(resume.experience.at(-1)?.company).toContain("Freelance");
   });
 
   it("freelance entry includes React Native and spans 2019-2022", () => {

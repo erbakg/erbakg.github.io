@@ -15,7 +15,8 @@ Senior Frontend инженер с 5+ годами опыта в высокопр
 ## Опыт работы
 
 ### Senior React Native / Frontend разработчик
-**Cointelegraph (CT Media Group)** · Remote · Август 2022 – настоящее время
+
+**Cointelegraph (CT Media Group)** · Remote · Август 2022 – 2026
 
 - Мобильный MVP крипто-новостной платформы для iOS и Android.
 - Снизил load time с 6с до 1.8с (−70%) и bundle size с 170 MB до 110 MB через code splitting, lazy loading и глубокий аудит производительности.
@@ -26,6 +27,7 @@ Senior Frontend инженер с 5+ годами опыта в высокопр
 **Стек:** React Native, React, TypeScript, Redux Toolkit, Apollo GraphQL, Firebase, Sentry, Java, Kotlin, MVVM, Android SDK
 
 ### Frontend / React Native инженер
+
 **Фриланс · NDA-проекты** · Remote · 2019 – 2022
 
 - **B2B ERP** — Виртуализированные таблицы на 10K+ строк (react-window), многоэтапные формы со строгой Zod-валидацией (90+ полей), пайплайн прямой загрузки в S3 через Uppy для multi-GB файлов, локализация на 4 языка.

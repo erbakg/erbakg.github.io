@@ -10,11 +10,12 @@ export const StatTile = ({ value, label, positive, index }: Props) => (
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.3 }}
     transition={{ duration: 0.4, delay: index * 0.08 }}
-    className="px-0 py-8 md:px-6 md:first:pl-0 md:last:pr-0 lg:py-2"
+    whileHover={{ y: -4 }}
+    className="rounded-3xl border border-border bg-bg-elevated p-6 sm:p-7"
   >
     <div
       className={cn(
-        "font-mono text-5xl font-semibold leading-none tracking-tight lg:text-6xl",
+        "font-display text-5xl leading-none tracking-[-0.045em] lg:text-6xl",
         positive ? "text-positive" : "text-fg",
       )}
     >

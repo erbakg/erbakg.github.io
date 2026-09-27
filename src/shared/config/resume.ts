@@ -1,15 +1,19 @@
 export type ResumeStat = {
   value: string;
   label: string;
+  labelRu?: string;
   positive?: boolean;
 };
 
 export type ResumeExperience = {
   company: string;
   role: string;
+  roleRu?: string;
   period: string;
   location: string;
+  locationRu?: string;
   bullets: string[];
+  bulletsRu?: string[];
   stack: string[];
   featured?: boolean;
   parallel?: boolean;
@@ -17,6 +21,7 @@ export type ResumeExperience = {
 
 export type ResumeSkillCategory = {
   category: string;
+  categoryRu?: string;
   items: string[];
 };
 
@@ -50,7 +55,7 @@ export type ResumeData = {
 
 export const resume: ResumeData = {
   name: "Erbol Mederbekov",
-  title: "Frontend Engineer · React Native",
+  title: "Senior Frontend & React Native Engineer",
   email: "erba522442@gmail.com",
   telegram: "@erbakg",
   telegramUrl: "https://t.me/erbakg",
@@ -60,22 +65,47 @@ export const resume: ResumeData = {
   siteUrl: "https://erbakg.github.io",
   location: { city: "Bishkek", country: "Kyrgyzstan", tz: "GMT+6" },
   stats: [
-    { value: "−70%", label: "Load time · 6s → 1.8s", positive: true },
-    { value: "−35%", label: "Bundle size · 170MB → 110MB", positive: true },
-    { value: "100K+", label: "Active users · iOS + Android" },
-    { value: "50+", label: "Production releases · Aug 2022 – 2026" },
+    {
+      value: "−70%",
+      label: "Load time · 6s → 1.8s",
+      labelRu: "Время загрузки · 6с → 1.8с",
+      positive: true,
+    },
+    {
+      value: "−35%",
+      label: "Bundle size · 170MB → 110MB",
+      labelRu: "Размер bundle · 170MB → 110MB",
+      positive: true,
+    },
+    {
+      value: "100K+",
+      label: "Active users · iOS + Android",
+      labelRu: "Активные пользователи · iOS + Android",
+    },
+    {
+      value: "50+",
+      label: "Production releases · Aug 2022 – 2026",
+      labelRu: "Продакшен-релизы · Авг 2022 – 2026",
+    },
   ],
   experience: [
     {
       company: "Cointelegraph",
-      role: "React Native Developer · Full-time",
+      role: "Senior React Native / Frontend Developer · Full-time",
+      roleRu: "Senior React Native / Frontend разработчик · Полная занятость",
       period: "Aug 2022 – 2026",
       location: "Remote",
+      locationRu: "Удалённо",
       featured: true,
       bullets: [
         "Mobile MVP for crypto-news platform, iOS + Android.",
         "Cut load time 6s → 1.8s (−70%), bundle 170 MB → 110 MB.",
         "Shipped 50+ production releases; reached 100K+ active users.",
+      ],
+      bulletsRu: [
+        "Мобильный MVP крипто-новостной платформы для iOS и Android.",
+        "Снизил время загрузки с 6с до 1.8с (−70%), bundle — со 170 MB до 110 MB.",
+        "Выпустил 50+ продакшен-релизов; продуктом пользуются 100K+ активных пользователей.",
       ],
       stack: [
         "React Native",
@@ -94,13 +124,22 @@ export const resume: ResumeData = {
     {
       company: "Freelance · NDA Projects",
       role: "Frontend / React Native Engineer",
+      roleRu: "Frontend / React Native инженер",
       period: "2019 – 2022",
       location: "Remote",
+      locationRu: "Удалённо",
+      parallel: true,
       bullets: [
         "B2B ERP — virtualized tables for 10K+ rows (react-window), multi-step forms with strict Zod validation (90+ fields), S3 direct-upload pipeline via Uppy for multi-GB files, 4-language i18n.",
         "Customer CRM — interactive Leaflet maps with 500+ clustered markers, type-safe routing (TanStack Router), installable PWA with offline cache, Framer Motion micro-interactions at 60fps.",
         "Banking debt-collection CRM — MobX store across 50+ entities, custom Webpack config cut bundle by 40%, real-time Nivo dashboards, 2GIS MapGL for KZ/RU geo coverage.",
         "Cross-platform mobile work — React Native screens shared between iOS and Android for selected client projects.",
+      ],
+      bulletsRu: [
+        "B2B ERP — виртуализированные таблицы на 10K+ строк (react-window), многоэтапные формы со строгой Zod-валидацией (90+ полей), прямые загрузки multi-GB файлов в S3 через Uppy, локализация на 4 языка.",
+        "Customer CRM — интерактивные Leaflet-карты с 500+ кластеризованными маркерами, типобезопасный роутинг (TanStack Router), устанавливаемое PWA с offline-кешем и микро-анимации Framer Motion в 60fps.",
+        "Банковский CRM по сбору долгов — MobX store на 50+ сущностей, кастомный Webpack-конфиг снизил bundle на 40%, real-time Nivo-дашборды, 2GIS MapGL для гео-покрытия KZ/RU.",
+        "Кросс-платформенная мобильная разработка — React Native-экраны, общие для iOS и Android в отдельных клиентских проектах.",
       ],
       stack: [
         "React",
@@ -120,19 +159,52 @@ export const resume: ResumeData = {
     },
   ],
   skills: [
-    { category: "Core", items: ["React 18/19", "TypeScript", "JavaScript ES2024"] },
-    { category: "UI / Styling", items: ["TailwindCSS v4", "Ant Design", "Framer Motion", "SCSS"] },
-    { category: "Build", items: ["Vite", "Webpack (custom)", "Rollup"] },
-    { category: "Testing", items: ["Vitest", "Jest", "Testing Library", "Storybook"] },
-    { category: "State", items: ["Redux Toolkit", "MobX", "Zustand"] },
-    { category: "Data", items: ["TanStack Query", "Apollo GraphQL", "Axios"] },
-    { category: "Routing", items: ["React Router v6/v7", "TanStack Router"] },
-    { category: "Forms", items: ["React Hook Form", "Zod"] },
-    { category: "Monitoring", items: ["Sentry", "Firebase Analytics", "Firebase Performance"] },
-    { category: "Tooling", items: ["Biome", "ESLint", "Prettier", "Husky", "CI/CD", "Git"] },
-    { category: "Mobile", items: ["React Native", "React Navigation", "iOS", "Android"] },
+    {
+      category: "Core",
+      categoryRu: "Основы",
+      items: ["React 18/19", "TypeScript", "JavaScript ES2024"],
+    },
+    {
+      category: "UI / Styling",
+      categoryRu: "UI / стили",
+      items: ["TailwindCSS v4", "Ant Design", "Framer Motion", "SCSS"],
+    },
+    { category: "Build", categoryRu: "Сборка", items: ["Vite", "Webpack (custom)", "Rollup"] },
+    {
+      category: "Testing",
+      categoryRu: "Тестирование",
+      items: ["Vitest", "Jest", "Testing Library", "Storybook"],
+    },
+    { category: "State", categoryRu: "Состояние", items: ["Redux Toolkit", "MobX", "Zustand"] },
+    {
+      category: "Data",
+      categoryRu: "Данные",
+      items: ["TanStack Query", "Apollo GraphQL", "Axios"],
+    },
+    {
+      category: "Routing",
+      categoryRu: "Роутинг",
+      items: ["React Router v6/v7", "TanStack Router"],
+    },
+    { category: "Forms", categoryRu: "Формы", items: ["React Hook Form", "Zod"] },
+    {
+      category: "Monitoring",
+      categoryRu: "Мониторинг",
+      items: ["Sentry", "Firebase Analytics", "Firebase Performance"],
+    },
+    {
+      category: "Tooling",
+      categoryRu: "Инструменты",
+      items: ["Biome", "ESLint", "Prettier", "Husky", "CI/CD", "Git"],
+    },
+    {
+      category: "Mobile",
+      categoryRu: "Мобильная разработка",
+      items: ["React Native", "React Navigation", "iOS", "Android"],
+    },
     {
       category: "Android",
+      categoryRu: "Android",
       items: [
         "Java",
         "Kotlin",

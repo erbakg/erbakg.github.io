@@ -12,10 +12,10 @@ type Props = {
 };
 
 const base =
-  "inline-flex items-center gap-2 rounded-md px-5 py-3 font-mono text-sm transition-colors";
+  "inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-medium transition-colors";
 const styles: Record<Variant, string> = {
-  primary: "bg-accent text-bg hover:bg-accent/90",
-  ghost: "border border-border text-fg hover:border-fg-muted",
+  primary: "bg-accent text-bg-elevated hover:bg-accent/90",
+  ghost: "border border-border bg-bg-elevated/40 text-fg hover:border-fg-muted",
 };
 
 export const Button = ({

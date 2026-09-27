@@ -38,6 +38,12 @@ export const Cv = () => {
   const locale = useLocale() as Locale;
   const education = educationByLocale[locale];
   const languages = languagesByLocale[locale];
+  const experience = resume.experience.map((item) => ({
+    ...item,
+    role: locale === "ru" ? (item.roleRu ?? item.role) : item.role,
+    location: locale === "ru" ? (item.locationRu ?? item.location) : item.location,
+    bullets: locale === "ru" ? (item.bulletsRu ?? item.bullets) : item.bullets,
+  }));
 
   return (
     <article className="mx-auto max-w-4xl px-6 py-12 print:max-w-none print:p-0 print:text-black">
@@ -84,15 +90,11 @@ export const Cv = () => {
 
       <CvSection label={t("sections.experience")}>
         <div className="space-y-8 print:space-y-5">
-          {resume.experience.map((e) => (
+          {experience.map((e) => (
             <div key={e.company} className="break-inside-avoid">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="text-xl font-semibold tracking-tight print:text-lg">
-                  {e.company}
-                </h3>
-                <span className="font-mono text-xs text-fg-muted print:text-black">
-                  {e.period}
-                </span>
+                <h3 className="text-xl font-semibold tracking-tight print:text-lg">{e.company}</h3>
+                <span className="font-mono text-xs text-fg-muted print:text-black">{e.period}</span>
               </div>
               <p className="mt-1 font-mono text-sm text-fg-muted print:text-black">
                 {e.role} · {e.location}
@@ -123,7 +125,7 @@ export const Cv = () => {
               className="grid grid-cols-[120px_1fr] gap-3 break-inside-avoid print:grid-cols-[100px_1fr]"
             >
               <dt className="font-mono text-xs uppercase tracking-[0.15em] text-accent print:text-black">
-                {cat.category}
+                {locale === "ru" ? (cat.categoryRu ?? cat.category) : cat.category}
               </dt>
               <dd className="text-sm text-fg print:text-black">{cat.items.join(", ")}</dd>
             </div>

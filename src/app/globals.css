@@ -1,16 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: oklch(14% 0.01 240);
-  --color-bg-elevated: oklch(18% 0.01 240);
-  --color-border: oklch(28% 0.01 240);
-  --color-fg: oklch(95% 0.01 240);
-  --color-fg-muted: oklch(70% 0.01 240);
-  --color-accent: oklch(78% 0.16 200);
-  --color-positive: oklch(75% 0.18 155);
+  --color-bg: oklch(16% 0.018 250);
+  --color-bg-elevated: oklch(19% 0.021 250);
+  --color-bg-soft: oklch(22% 0.025 250);
+  --color-border: oklch(29% 0.022 250);
+  --color-fg: oklch(91% 0.012 250);
+  --color-fg-muted: oklch(68% 0.018 250);
+  --color-accent: oklch(73% 0.09 210);
+  --color-accent-soft: oklch(28% 0.045 210);
+  --color-positive: oklch(72% 0.1 155);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-sans);
 
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
@@ -22,6 +25,26 @@ body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: var(--font-sans);
+  min-width: 320px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 15% 0%, rgb(255 255 255 / 0.035), transparent 26rem),
+    radial-gradient(circle at 85% 20%, rgb(90 160 180 / 0.045), transparent 24rem);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-bg-elevated);
 }
 
 @media (prefers-reduced-motion: reduce) {

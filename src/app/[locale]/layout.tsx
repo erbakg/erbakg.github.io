@@ -3,6 +3,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { resume } from "@/shared/config/resume";
 
 export const generateStaticParams = () => routing.locales.map((locale) => ({ locale }));
 
@@ -13,7 +14,7 @@ export const generateMetadata = async ({
 }): Promise<Metadata> => {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "hero" });
-  const title = "Erbol Mederbekov — Frontend Engineer";
+  const title = `Erbol Mederbekov — ${resume.title}`;
   const description = t("tagline");
   return {
     title,

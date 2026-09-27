@@ -15,7 +15,8 @@ Senior Frontend Engineer with 5+ years building high-performance web and mobile 
 ## Work Experience
 
 ### Senior React Native / Frontend Developer
-**Cointelegraph (CT Media Group)** · Remote · Aug 2022 – Present
+
+**Cointelegraph (CT Media Group)** · Remote · Aug 2022 – 2026
 
 - Mobile MVP for crypto-news platform, iOS + Android.
 - Cut load time 6s → 1.8s (−70%), bundle 170 MB → 110 MB via code splitting, lazy loading, and deep performance audit.
@@ -26,6 +27,7 @@ Senior Frontend Engineer with 5+ years building high-performance web and mobile 
 **Stack:** React Native, React, TypeScript, Redux Toolkit, Apollo GraphQL, Firebase, Sentry, Java, Kotlin, MVVM, Android SDK
 
 ### Frontend / React Native Engineer
+
 **Freelance · NDA Projects** · Remote · 2019 – 2022
 
 - **B2B ERP** — Virtualized tables for 10K+ rows (react-window), multi-step forms with strict Zod validation (90+ fields), S3 direct-upload pipeline via Uppy for multi-GB files, 4-language i18n.
