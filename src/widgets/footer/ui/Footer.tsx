@@ -17,6 +17,14 @@ export const Footer = ({ locale }: Props) => (
         >
           GitHub
         </a>
+        <a
+          href={resume.linkedinUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="transition-colors hover:text-fg"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
   </footer>

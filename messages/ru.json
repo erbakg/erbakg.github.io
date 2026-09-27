@@ -56,8 +56,8 @@
     }
   },
   "cv": {
-    "title": "Senior Frontend и React Native инженер",
-    "profile": "Senior Frontend инженер с 5+ годами опыта в высокопроизводительных веб- и мобильных приложениях. Эксперт по React, React Native и TypeScript. Запускал продакшен-приложения с аудиторией 100K+ активных пользователей — снизил load time с 6с до 1.8с (−70%) и bundle size с 170MB до 110MB. Опыт работы как в кросс-функциональных продуктовых командах, так и в роли единственного frontend-разработчика. Открыт к релокации.",
+    "title": "Senior Frontend Developer / Senior React Native Engineer",
+    "profile": "Senior Frontend и React Native Engineer с опытом более 5 лет в web- и mobile-продуктах. В MDigital участвовал в разработке ERP/CRM для недвижимости, строительства и collection-сценариев; в Cointelegraph помог масштабировать кроссплатформенное приложение до 100K+ активных пользователей и выпустил 50+ production-релизов. Открыт к релокации.",
     "sections": {
       "profile": "О себе",
       "skills": "Технические навыки",

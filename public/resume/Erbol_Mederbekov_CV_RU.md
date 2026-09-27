@@ -1,18 +1,29 @@
 # ЭРБОЛ МЕДЕРБЕКОВ
 
-**Senior Frontend и React Native инженер**
+**Senior Frontend Developer / Senior React Native Engineer**
 
-erba522442@gmail.com · t.me/erbakg · github.com/erbakg · erbakg.github.io · Бишкек, Киргизия · Открыт к релокации
+erba522442@gmail.com · +996 705 522 442 · t.me/erbakg · linkedin.com/in/erbol-mederbekov-122438202 · github.com/erbakg · erbakg.github.io · Бишкек, Киргизия · Открыт к релокации
 
 ---
 
 ## О себе
 
-Senior Frontend инженер с 5+ годами опыта в высокопроизводительных веб- и мобильных приложениях. Эксперт по React, React Native и TypeScript. Запускал продакшен-приложения с аудиторией 100K+ активных пользователей — снизил load time с 6с до 1.8с (−70%) и bundle size с 170MB до 110MB. Опыт работы как в кросс-функциональных продуктовых командах, так и в роли единственного frontend-разработчика. Открыт к релокации.
+Senior Frontend инженер с 5+ годами опыта в высокопроизводительных веб- и мобильных приложениях. В MDigital разрабатывал модульные ERP/CRM-продукты для недвижимости, строительства, управления задачами и взыскания задолженности. В Cointelegraph выпустил мобильное приложение с аудиторией 100K+ активных пользователей, снизил load time с 6с до 1.8с (−70%) и выпустил 50+ релизов. Опыт работы как в кросс-функциональных продуктовых командах, так и в роли единственного frontend-разработчика. Открыт к релокации.
 
 ---
 
 ## Опыт работы
+
+### Frontend Developer
+
+**MDigital** · Бишкек, Кыргызстан · Август 2025 – Сентябрь 2026 · Полная занятость, офис
+
+- Разрабатывал модульную ERP/CRM-экосистему для недвижимости и строительства: проекты и объекты, подрядчики, договоры, платежи, материалы, тендеры, склад, документы, отчёты и процессы согласования.
+- Реализовал планирование в формате Gantt со сценариями GPR/UGPR/VDC, редактированием с учётом ролей, версиями baseline, навигацией по таймлайну и коммерческими предложениями поставщиков.
+- Разработал мобильный каталог Artwin для жилых проектов, квартир, парковок и коммерческих помещений, а также frontend системы управления задачами Nurzaman с SSO, ERP-уведомлениями и защищённой навигацией во внешние WebView.
+- Разработал CRM Soft Collection для кредитных и клиентских сценариев, обещаний платежа, статусов Legal/Fraud, назначений через 2GIS, кеширования карт, прав доступа и анализа взаимосвязей.
+
+**Стек:** React, TypeScript, Vue 3, Vite, Redux Toolkit, Pinia, TanStack Router, Ant Design, @mdigital/ui, Tailwind CSS, WebSockets, 2GIS MapGL, Vitest, Playwright, Sentry
 
 ### Senior React Native / Frontend разработчик
 
@@ -28,7 +39,7 @@ Senior Frontend инженер с 5+ годами опыта в высокопр
 
 ### Frontend / React Native инженер
 
-**Фриланс · NDA-проекты** · Remote · 2019 – 2022
+**Фриланс · NDA-проекты** · Remote · Январь 2019 – Июль 2022
 
 - **B2B ERP** — Виртуализированные таблицы на 10K+ строк (react-window), многоэтапные формы со строгой Zod-валидацией (90+ полей), пайплайн прямой загрузки в S3 через Uppy для multi-GB файлов, локализация на 4 языка.
 - **Customer CRM** — Интерактивные Leaflet-карты с 500+ кластеризованных маркеров, типобезопасный роутинг (TanStack Router), устанавливаемое PWA с offline-кешем, Framer Motion микро-анимации в 60fps.
@@ -42,16 +53,16 @@ Senior Frontend инженер с 5+ годами опыта в высокопр
 ## Технические навыки
 
 **Core** — React 18/19, React Native, TypeScript, JavaScript ES2024
-**UI / Styling** — TailwindCSS v4, Ant Design, Framer Motion, SCSS
-**State** — Redux Toolkit, MobX, Zustand
-**Data** — TanStack Query, Apollo GraphQL, Axios
+**UI / Styling** — TailwindCSS v4, Ant Design, @mdigital/ui, Framer Motion, SCSS
+**State** — Redux Toolkit, MobX, Pinia, Zustand
+**Data** — TanStack Query, Apollo GraphQL, REST API, WebSockets, Axios
 **Forms** — React Hook Form, Zod
 **Routing** — React Router v6/v7, TanStack Router, React Navigation
 **Build** — Vite, Webpack (custom), Rollup
-**Testing** — Vitest, Jest, Testing Library, Storybook
+**Testing** — Vitest, Jest, Testing Library, Playwright, Storybook
 **Monitoring** — Sentry, Firebase Analytics, Firebase Performance
 **Tooling** — Biome, ESLint, Prettier, Husky, CI/CD, Git
-**Mobile** — React Native, React Navigation, iOS, Android
+**Mobile** — React Native, React Navigation, Swift, iOS, Android
 **Android** — Java, Kotlin, Android SDK, Android Studio, MVVM, Android Pro Certification
 
 ---

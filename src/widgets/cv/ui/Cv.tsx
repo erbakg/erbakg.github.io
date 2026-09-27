@@ -70,7 +70,11 @@ export const Cv = () => {
         <div className="mt-5 flex flex-wrap gap-x-5 gap-y-1 font-mono text-xs text-fg-muted print:text-black">
           <span>{resume.email}</span>
           <span>·</span>
+          <span>{resume.phone}</span>
+          <span>·</span>
           <span>{resume.telegramUrl.replace("https://", "")}</span>
+          <span>·</span>
+          <span>{resume.linkedin}</span>
           <span>·</span>
           <span>{resume.githubUrl.replace("https://", "")}</span>
           <span>·</span>
@@ -118,7 +122,7 @@ export const Cv = () => {
       </CvSection>
 
       <CvSection label={t("sections.skills")}>
-        <dl className="grid gap-x-8 gap-y-2 md:grid-cols-2 print:grid-cols-2">
+        <dl className="mt-2 grid gap-x-8 gap-y-2 md:grid-cols-2 print:grid-cols-2">
           {resume.skills.map((cat) => (
             <div
               key={cat.category}

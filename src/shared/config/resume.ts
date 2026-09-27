@@ -39,8 +39,12 @@ export type ResumeData = {
   name: string;
   title: string;
   email: string;
+  phone: string;
+  phoneUrl: string;
   telegram: string;
   telegramUrl: string;
+  linkedin: string;
+  linkedinUrl: string;
   github: string;
   githubUrl: string;
   cvPdfUrl: string;
@@ -55,10 +59,14 @@ export type ResumeData = {
 
 export const resume: ResumeData = {
   name: "Erbol Mederbekov",
-  title: "Senior Frontend & React Native Engineer",
+  title: "Senior Frontend Developer / Senior React Native Engineer",
   email: "erba522442@gmail.com",
+  phone: "+996 705 522 442",
+  phoneUrl: "tel:+996705522442",
   telegram: "@erbakg",
   telegramUrl: "https://t.me/erbakg",
+  linkedin: "linkedin.com/in/erbol-mederbekov-122438202",
+  linkedinUrl: "https://linkedin.com/in/erbol-mederbekov-122438202",
   github: "erbakg",
   githubUrl: "https://github.com/erbakg",
   cvPdfUrl: "/resume/Erbol_Mederbekov_CV_EN.pdf",
@@ -90,13 +98,50 @@ export const resume: ResumeData = {
   ],
   experience: [
     {
+      company: "MDigital",
+      role: "Frontend Developer · Full-time, onsite",
+      roleRu: "Frontend Developer · Полная занятость, офис",
+      period: "Aug 2025 – Sep 2026",
+      location: "Bishkek, Kyrgyzstan",
+      locationRu: "Бишкек, Кыргызстан",
+      featured: true,
+      bullets: [
+        "Worked on a modular ERP/CRM ecosystem for real estate and construction: projects, contractors, contracts, payments, materials, tenders, warehouse, documents, reports, and approval workflows.",
+        "Built Gantt-based planning, GPR/UGPR/VDC scenarios, role-aware editing, baseline revisions, timeline navigation, and supplier proposals.",
+        "Contributed to Artwin, a residential real-estate catalog, and adapted Nurzaman, a corporate task-management frontend with SSO, ERP notifications, and protected WebView navigation.",
+        "Developed Soft Collection CRM workflows for credit, payments, Legal, Fraud, field assignments on 2GIS maps, permissions, map caching, and relationship analysis.",
+      ],
+      bulletsRu: [
+        "Участвовал в разработке модульной ERP/CRM-экосистемы для недвижимости и строительства: проекты, объекты, подрядчики, договоры, платежи, материалы, тендеры, склад, документы, отчёты и approval workflows.",
+        "Реализовывал планирование на основе Gantt, GPR/UGPR/VDC-сценарии, редактуру с учётом ролей и прав доступа, baseline revisions, навигацию по таймлайну и коммерческие предложения поставщиков.",
+        "Участвовал в разработке Artwin — мобильного каталога жилой недвижимости, и адаптировал Nurzaman — корпоративный task-management frontend с SSO, ERP-уведомлениями и защищённой навигацией в WebView.",
+        "Развивал Soft Collection CRM: кредитные и клиентские сценарии, обещания платежа, Legal и Fraud, распределение выездов и звонков на карте 2GIS, permissions, кэширование карты и анализ связей.",
+      ],
+      stack: [
+        "React",
+        "TypeScript",
+        "Vue 3",
+        "Vite",
+        "Redux Toolkit",
+        "Pinia",
+        "TanStack Router",
+        "Ant Design",
+        "@mdigital/ui",
+        "Tailwind CSS",
+        "WebSockets",
+        "2GIS MapGL",
+        "Vitest",
+        "Playwright",
+        "Sentry",
+      ],
+    },
+    {
       company: "Cointelegraph",
-      role: "Senior React Native / Frontend Developer · Full-time",
-      roleRu: "Senior React Native / Frontend разработчик · Полная занятость",
+      role: "React Native Developer · Full-time",
+      roleRu: "React Native Developer · Полная занятость",
       period: "Aug 2022 – 2026",
       location: "Remote",
       locationRu: "Удалённо",
-      featured: true,
       bullets: [
         "Mobile MVP for crypto-news platform, iOS + Android.",
         "Cut load time 6s → 1.8s (−70%), bundle 170 MB → 110 MB.",
@@ -125,7 +170,7 @@ export const resume: ResumeData = {
       company: "Freelance · NDA Projects",
       role: "Frontend / React Native Engineer",
       roleRu: "Frontend / React Native инженер",
-      period: "2019 – 2022",
+      period: "Jan 2019 – Jul 2022",
       location: "Remote",
       locationRu: "Удалённо",
       parallel: true,
@@ -162,24 +207,28 @@ export const resume: ResumeData = {
     {
       category: "Core",
       categoryRu: "Основы",
-      items: ["React 18/19", "TypeScript", "JavaScript ES2024"],
+      items: ["React 18/19", "React Native", "Vue 3", "TypeScript", "JavaScript ES2024"],
     },
     {
       category: "UI / Styling",
       categoryRu: "UI / стили",
-      items: ["TailwindCSS v4", "Ant Design", "Framer Motion", "SCSS"],
+      items: ["TailwindCSS v4", "Ant Design", "@mdigital/ui", "Framer Motion", "SCSS"],
     },
     { category: "Build", categoryRu: "Сборка", items: ["Vite", "Webpack (custom)", "Rollup"] },
     {
       category: "Testing",
       categoryRu: "Тестирование",
-      items: ["Vitest", "Jest", "Testing Library", "Storybook"],
+      items: ["Vitest", "Jest", "Testing Library", "Playwright", "Storybook"],
     },
-    { category: "State", categoryRu: "Состояние", items: ["Redux Toolkit", "MobX", "Zustand"] },
+    {
+      category: "State",
+      categoryRu: "Состояние",
+      items: ["Redux Toolkit", "Pinia", "MobX", "Zustand"],
+    },
     {
       category: "Data",
       categoryRu: "Данные",
-      items: ["TanStack Query", "Apollo GraphQL", "Axios"],
+      items: ["TanStack Query", "Apollo GraphQL", "Axios", "REST API", "WebSockets"],
     },
     {
       category: "Routing",
@@ -200,7 +249,7 @@ export const resume: ResumeData = {
     {
       category: "Mobile",
       categoryRu: "Мобильная разработка",
-      items: ["React Native", "React Navigation", "iOS", "Android"],
+      items: ["React Native", "React Navigation", "iOS", "Android", "Swift"],
     },
     {
       category: "Android",
