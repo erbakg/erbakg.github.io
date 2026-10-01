@@ -94,8 +94,8 @@ export const resume: ResumeData = {
     },
     {
       value: "50+",
-      label: "Production releases · Aug 2022 – 2026",
-      labelRu: "Продакшен-релизы · Авг 2022 – 2026",
+      label: "Production releases · Aug 2022 – Aug 2025",
+      labelRu: "Продакшен-релизы · Авг 2022 – Авг 2025",
     },
   ],
   experience: [
@@ -141,7 +141,7 @@ export const resume: ResumeData = {
       company: "Cointelegraph",
       role: "React Native Developer · Full-time",
       roleRu: "React Native Developer · Полная занятость",
-      period: "Aug 2022 – 2026",
+      period: "Aug 2022 – Aug 2025",
       location: "Remote",
       locationRu: "Удалённо",
       bullets: [

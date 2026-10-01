@@ -27,7 +27,7 @@ Senior Frontend Engineer with 5+ years building high-performance web and mobile 
 
 ### Senior React Native / Frontend Developer
 
-**Cointelegraph (CT Media Group)** · Remote · Aug 2022 – 2026
+**Cointelegraph (CT Media Group)** · Remote · Aug 2022 – Aug 2025
 
 - Mobile MVP for crypto-news platform, iOS + Android.
 - Cut load time 6s → 1.8s (−70%), bundle 170 MB → 110 MB via code splitting, lazy loading, and deep performance audit.

@@ -27,7 +27,7 @@ Senior Frontend инженер с 5+ годами опыта в высокопр
 
 ### Senior React Native / Frontend разработчик
 
-**Cointelegraph (CT Media Group)** · Remote · Август 2022 – 2026
+**Cointelegraph (CT Media Group)** · Remote · Август 2022 – Август 2025
 
 - Мобильный MVP крипто-новостной платформы для iOS и Android.
 - Снизил load time с 6с до 1.8с (−70%) и bundle size с 170 MB до 110 MB через code splitting, lazy loading и глубокий аудит производительности.
